@@ -4,7 +4,7 @@ Custom Assertions allow you to handle your own assertion logic.
 ## Creating
 You specify the use of a Custom Assertion in the [Method component](method-component.md).
 
-<img src="custom-assertion-add.png" alt="custom assertion" width="400px"/>
+<img src="custom-assertion-add.png" alt="custom assertion" width="400"/>
 
 1. In the Custom Assertions section of the Verification column, hover over the title bar and press the **+** icon.
 2. Select the dropdown, which will initially contain ```null```.

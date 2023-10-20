@@ -23,7 +23,7 @@ Starting IntelliJ subsequently will...
 ## Starting Vizitest
 There are two ways to start Vizitest once the Vizitest service is installed and started.
 
-- From the main IntelliJ menu (Select "{} Open in Browser" to start the [Vizitest Test Manager](introduction.md).)
+- From the main IntelliJ menu (Select "{} Open in Browser" to start the [Vizitest Test Manager](test-manager-intro.md).)
 - From the **Open in Browser** link in Notification.
 
 ![](intellij-startup.png)
@@ -36,5 +36,5 @@ When you start Vizitest for the first time, you will need to activate your trial
 You are now ready to use Vizitest. You can find the following information to help you learn Vizitest.
 
 - [User Guide](nutshell.md) - a general reference.
-- [Training](training_introduction.md) - a set of tutorial modules accompanied by sample code.
+- [Training](training.md) - a set of tutorial modules accompanied by sample code.
 

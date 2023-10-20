@@ -20,11 +20,11 @@ The idea is that you specify a sequence of rules and conditions with respect to 
 - It is easy to set up.
 - It is easy to read and understand in the future.
 - Vizitest will translate the table into a clear set of test cases and then into test code.
-- You can examine the test cases and even add new ones in a [Test Case Table](do-test-case-table.) should you want to, although this would not usually be necessary.
+- You can examine the test cases and even add new ones in a [Test Case Table](test-case-table.md) should you want to, although this would not usually be necessary.
 
 ## Disadvantages
 
-- It is not as rigorous as [Equivalence Class Partitioning](ec-theory.).
+- It is not as rigorous as [Equivalence Class Partitioning](theory-ecs.md).
 - Another test type may be better suited to the task (we will be constantly adding more tes types).
 
 ## Your thoughts and ideas

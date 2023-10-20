@@ -25,12 +25,12 @@ You can multi select Groups using **shift+drag**. You can then drag the selected
 You can zoom using your keypad, mouse-wheel or using the zoom buttons on the right side of the canvas.
 
 ## Fit
-<img src="fit-button.png" alt="fit" width="30px"/>
+<img src="fit-button.png" alt="fit" width="30"/>
 
 The Fit button (right side of canvas) fits all Groups on the canvas within the viewport.
 
 ## Auto layout
-<img src="auto-layout-button.png" alt="auto layout" width="30px"/>
+<img src="auto-layout-button.png" alt="auto layout" width="30"/>
 
 This button tidies up the Groups by organizing them in the best way it can. Don't like it? Press Undo.
 

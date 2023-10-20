@@ -39,7 +39,7 @@ As you can see from the code, it simply concatenates the name and age. So, make 
 
 That's it. Your configuration should now look like this. 
 
-<img src="r-value-complex-1.png" alt="complex r value" width="400px"/>
+<img src="r-value-complex-1.png" alt="complex r value" width="400"/>
 
 [TODO : correct screenshot above]
 

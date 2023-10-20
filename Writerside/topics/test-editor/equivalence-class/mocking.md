@@ -24,6 +24,7 @@ In order to create a unit test, we will need to use a test double in order test 
 Go to the Representative Value you want to work with a select it. From here you can [create your new User Method](ec-r-value-settings.md#instantiating-with-a-user-method).
 
 ![](mock-mock-config.png)
+
 [TODO : replace once User Method fixed with type dropdown/search]
 
 You can see how we are creating a User Method called ```mockSimpleAddUserRepository``` with the three parameters ```name```, ```age``` and ```bio``` that are required to instantiate the ```User``` object.

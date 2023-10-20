@@ -2,11 +2,11 @@
 
 As you add more Test Configurations, it makes sense to create a hierarchy in which to organize them, a bit like this.
 
-![](hiw-organise.webp)
+![](test-manager.png)
 
 There are two ways in which you can do this.
 
-<img src="/img/docs/test-manager/connecting-groups.png" width="300px"/>
+<img src="connecting-groups.png" alt="connecting groups" width="300"/>
 
 - **Add subgroup button** : If you hover over a Group, you will see a button appear **Add a subgroup**. If you press, this, a new group is created and connected.
 

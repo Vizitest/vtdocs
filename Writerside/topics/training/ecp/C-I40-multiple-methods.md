@@ -25,23 +25,23 @@ We are going to create a test that operates on two methods. This is an extremely
 
 ### Create the first Method component
 
-#### Input
+#### Method 1 Input
 - Searching for and add the method ```multiplyBy``` to the canvas.
 - You will need one Equivalence Class **Valid values** for the Input parameter ```multiplicand``` although you can name it whatever you like.
 - Add the Representative Value ```5```.
 
-#### Verifications
+#### Method 1 Verifications
 - In the Expected Values section, we will need an Equivalence Class **Valid values** (name as you like).
 - Add the value ```50``` for ```multiplicand``` as we initialized the class with ```10``` and multiplied it by ```5```
 
 ### Create the second Method component
-#### Input
+#### Method 2 Input
 - Searching for and add the method ```divideBy``` to the canvas.
 - You will need two Equivalence Classes, **Valid values** and **Invalid values** for the Input parameter ```divisor``` although you can name them whatever you like.
 - Add the Representative Value ```2``` to I've already had 3**Valid values**.
 - Add the Representative Value ```0``` to **Invalid values**.
 
-#### Verifications
+#### Method 2 Verifications
 - In the Expected Values section, we will need an Equivalence Class **Valid values** (name as you like).
 - Add the value ```25``` as we initialized the class with ```10``` and multiplied it by ```5``` and dividing it by ```2``` in this method's input.
 - We should also add an Exception to catch the divide by 0 error we can expect from the **Invalid values** Equivalence Class.

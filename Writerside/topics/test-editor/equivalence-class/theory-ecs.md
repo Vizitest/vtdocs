@@ -24,7 +24,7 @@ Let's start off with a simple requirements statement as a backdrop. Physicists m
 To illustrate this, lets look at the state of water at different temperatures. There will be those who want to argue about exactly when water freezes or turns to steam, but for the sake of simplicity, let's assume it is at 0 and 100.
 
 
-<img src="ec-definition.png" alt="example" width="500px"/>
+<img src="ec-definition.png" alt="example" width="500"/>
 
 Let's assume we have a method that returns the state based on temperature as an input value.
 

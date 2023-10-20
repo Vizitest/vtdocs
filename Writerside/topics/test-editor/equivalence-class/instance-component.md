@@ -9,7 +9,7 @@ If the method is static, then you do not need an Instance component.
 ## 1. Find the Class
 You first need to find the Class you want to instantiate.
 
-<img src="method-class-search.png" alt="method class search" width="600px"/>
+<img src="method-class-search.png" alt="method class search" width="600"/>
 
 
 - Click on the + icon to open the search

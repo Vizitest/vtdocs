@@ -1,20 +1,21 @@
 # Setting Equivalence Classes and Representative Values
 Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](practice-ecs.md) pages if you are not yet familiar with Equivalence Classes.
 
-
 You will use Equivalence Classes extensively in the Instance and Method components. This describes how to set them
 
 [TODO - check all screenshots once ready]
 
 **Instance Component**
-<img src="instance-component-example.png" alt="" width="500px"/>
+
+<img src="instance-component-example.png" alt="" width="500"/>
 
 **Method Component**
-<img src="method-component.png" alt="" width="500px"/>
+
+<img src="method-component.png" alt="" width="500"/>
 
 ## Adding an Equivalence Class to an Instance
 
-<img src="instance-annotated.png" alt="" width="500px"/>
+<img src="instance-annotated.png" alt="" width="500"/>
 
 1. Press the large + icon in the top right of the component.
 2. Toggle between a valid and invalid type by clicking the icon
@@ -22,7 +23,7 @@ You will use Equivalence Classes extensively in the Instance and Method componen
 
 ## Adding an Equivalence Class to a Method
 
-<img src="method-annotated.png" alt="" width="500px"/>
+<img src="method-annotated.png" alt="" width="500"/>
 
 
 1. Press the + icon in one of the section header bar. This will appear when you hover over it.
@@ -35,7 +36,7 @@ Hover over an Equivalence Class name and press the **+Add** button.
 ### Changing a primitive value
 This is straightforward. Click on any value as highlighted below.
 
-<img src="r-value-primitive.png" alt="" width="300px"/>
+<img src="r-value-primitive.png" alt="" width="300"/>
 
 You can then enter the value directly in the field.
 
@@ -46,12 +47,12 @@ This is an Instance component and the Class constructor has two parameters. ```S
 
 However, ```LocalDateTime dateOfBirth``` is a complex data type.
 
-<img src="r-value-complex-0.png" alt="" width="400px"/>
+<img src="r-value-complex-0.png" alt="" width="400"/>
 
 
 To edit, click in the value field and it will expand. 
 
-<img src="r-value-complex-1.png" alt="" width="400px"/>
+<img src="r-value-complex-1.png" alt="" width="400"/>
 
 You can see here that we are able to choose the constructor to use when instantiating the object. You can change the constructor here by clicking an orange constructor pill.
 
@@ -59,7 +60,7 @@ The ```String name``` field can be edited in place but ```LocalDateTime dateOfBi
 
 A new, nested area will appear where you can edit each of the values.
 
-<img src="r-value-complex-2.png" alt="" width="400px"/>
+<img src="r-value-complex-2.png" alt="" width="400"/>
 
 ### Collapsing, saving, discarding
 Any complex data type values you have edited will leave the expanded section open until you explicitly change it.
@@ -73,11 +74,12 @@ If you want to instantiate it with your own (factory) method then select the Rep
 
 Any previously defined User Methods are shown in a light blue color.
 
-<img src="user-method-1.png" alt="" width="400px"/>
+<img src="user-method-1.png" alt="" width="400"/>
 
 You will then see the following dialog.
 
-<img src="user-method-2.png" alt="" width="400px"/>
+<img src="user-method-2.png" alt="" width="400"/>
+
 [TODO - new image when type search is ready]
 
 You will notice that the return tpe is automatically set to the data type of the instance's class.
@@ -89,7 +91,7 @@ You will notice that the return tpe is automatically set to the data type of the
 
 You will now see your new method added, as a blue pill, and selected. The parameters you defined (```int age``` and ```double amount```) can now be edited.
 
-<img src="user-method-3.png" alt="" width="400px"/>
+<img src="user-method-3.png" alt="" width="400"/>
 
 ### User Methods without parameters
 There are rare cases when you might want to use a User Method without any parameters. A typical example would be if you are using the **Object Mother Pattern**.
@@ -118,7 +120,7 @@ You can now replace the lines
 ...with your own implementation. Note that the return type is automatically provided in the method signature.
 
 ### Working with arrays, lists, enums and generics
-These are best explained in our [Training](training_introduction.md) lessons.
+These are best explained in our [Training](training.md) lessons.
 
  - [Arrays, lists, enums](arrays-lists-enums.md)
- - [Generics](20-generics.md)
+ - [Generics](generics.md)

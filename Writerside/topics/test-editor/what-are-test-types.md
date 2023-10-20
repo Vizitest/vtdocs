@@ -4,7 +4,8 @@ A test type is a UI driven way of generating test code based on specific best-pr
 For example, a unit test using the [Equivalence Class Partitioning](equivalence-classes.md) test type might look like this. Don't worry too much about understanding this fully. We explain in detail later.
 
 [TODO - proper image]
-<img src="test-type-explanation.png" alt="test type explanation" width="550px"/>
+
+<img src="test-type-explanation.png" alt="test type explanation" width="550"/>
 
 1. Handles the instantiation of the class ```CreditCheck``` by creating single valid Equivalence Class with three different representative values.
 2. Test the method ```checkCredit``` by defining input values and then possible expected values, custom assertions, exceptions and side effects.

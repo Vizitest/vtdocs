@@ -87,5 +87,6 @@ Once you have matched the Verifications to the inputs, you are ready to generate
 Vizitest generates so-called parameterized tests, which makes your code both compact and readable. The test code is regular code and can be read, run and launched just like any other test you would write manually. 
 
 [TODO correct image once codegen done]
+
 ![](codegen.png)
 

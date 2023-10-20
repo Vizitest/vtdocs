@@ -1,7 +1,7 @@
 # About Test Configurations
 A Test Configuration defines one or more unit or integration tests using the Vizitest low-code user interface.
 
-During the Beta, we offer one of the most powerful ways of generating tests, known as [Equivalence Class Partitioning]().
+During the Beta, we offer one of the most powerful ways of generating tests, known as [Equivalence Class Partitioning](equivalence-classes.md).
 
 We will add more [test Types](what-are-test-types.md) in the future.
 

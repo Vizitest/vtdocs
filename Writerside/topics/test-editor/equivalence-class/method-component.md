@@ -5,7 +5,7 @@ Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](pra
 ## 1. Add the Method
 When you want to test a method, you use the Method component. To add a new one to the canvas
 
-<img src="method-class-search.png" alt="Class method search" width="600px"/>
+<img src="method-class-search.png" alt="Class method search" width="600"/>
 
 - Click on the + icon as shown in the image above to open the search dialog.
 - Enter the name of the method you want to add (you can filter using the dropdown).
@@ -13,7 +13,7 @@ When you want to test a method, you use the Method component. To add a new one t
 
 You should now see a new component on the canvas.
 
-<img src="method-component.png" alt="method component" width="80%"/>
+<img src="method-component.png" alt="method component"/>
 
 You will notice that the Method component has several sections, divided into Inputs and Verification.
 

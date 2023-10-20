@@ -3,7 +3,7 @@ A Test Configuration is edited in the Test Editor.
 
 Locate the Test Configuration you want to edit and press the edit icon.
 
-<img src="open-test-config.png" alt="open test configuration" width="300px"/>
+<img src="open-test-config.png" alt="open test configuration" width="300"/>
 
 This will then immediately switch to the Test Editor, where you can edit the Test Configuration.
 

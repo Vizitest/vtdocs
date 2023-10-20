@@ -11,7 +11,7 @@ You would typically pull your codebase from a Git repository. If someone else ha
 ## Creating a Project
 To connect, press the '+' icon in the left sidebar next to **Projects**.
 
-<img src="codebase-connect.png" width="300px" alt="connect codebase"/>
+<img src="codebase-connect.png" width="300" alt="connect codebase"/>
 
 You will then see the following dialog, where you should
 
@@ -21,15 +21,16 @@ You will then see the following dialog, where you should
 - Choose a color. This is purely a visual aid to help you quickly differentiate one Project from another in the left sidebar.
 
 [TODO : correct image below one path field back]
-<img src="codebase-connect.png"  alt="connect codebase" width="400px"/>
+
+<img src="codebase-connect.png"  alt="connect codebase" width="400"/>
 
 Once you confirm, you will see the new Project in the left sidebar.
 
 If using IntelliJ, you can find the absolute path to your codebase by right-clicking the root folder in the project file tree. You can then select the Absolute path option and paste it into the Vizitest path field.
 
-<img src="absolute-path-intellij.png" alt="absolute path" width="600px"/>
+<img src="absolute-path-intellij.png" alt="absolute path" width="600"/>
 
 ## Verifying Vizitest is installed in your codebase
 Once you've added a Vizitest Project, you should see a ```.vizitest``` folder in the root of your codebase. This is where all Groups and Test Configurations are stored.
 
-<img src="dot-vizitest-folder.png" alt="vizitest folder" width="400px"/>
+<img src="dot-vizitest-folder.png" alt="vizitest folder" width="400"/>

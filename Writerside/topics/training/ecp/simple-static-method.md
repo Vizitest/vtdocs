@@ -15,7 +15,7 @@ We'll start off with the requirements for this method, which returns a string fo
 
 There will be those who want to argue about exactly when water freezes or turns to steam, but for the sake of simplicity, let's assume it is at 0 and 100.
 
-<img src="ec-definition.png" alt="ec definition" width="300px"/>
+<img src="ec-definition.png" alt="ec definition" width="300"/>
 
 **We have a method that expects a temperature of water to be input. It should return the state of the water as a string.**
 
