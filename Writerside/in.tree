@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                  name="instanceName" start-page="contact.md">
+
+    <toc-element topic="nutshell.md"/>
+    <toc-element topic="Problems-we-solve.md">
+        <toc-element topic="code-coverage.md"/>
+        <toc-element topic="test-cases.md"/>
+        <toc-element topic="readability.md"/>
+        <toc-element topic="tdd.md"/>
+        <toc-element topic="ai.md"/>
+        <toc-element topic="time-pressure.md"/>
+        <toc-element topic="methodology.md"/>
+    </toc-element>
+    <toc-element topic="getting-started.md">
+        <toc-element topic="overview.md"/>
+        <toc-element topic="system-requirements.md"/>
+        <toc-element topic="installation.md"/>
+        <toc-element topic="starting.md"/>
+        <toc-element topic="updating.md"/>
+        <toc-element topic="removing-vizitest.md"/>
+    </toc-element>
+    <toc-element topic="Test-Manager.md">
+        <toc-element topic="connect-codebase.md"/>
+        <toc-element topic="test-manager-canvas.md"/>
+        <toc-element topic="group-rename-label.md"/>
+        <toc-element topic="group-add-organize.md"/>
+        <toc-element topic="search.md"/>
+        <toc-element topic="dragging.md"/>
+        <toc-element topic="group-delete.md"/>
+        <toc-element topic="test-config-add.md"/>
+        <toc-element topic="test-config-edit.md"/>
+        <toc-element topic="other-test-config-actions.md"/>
+        <toc-element topic="git.md"/>
+    </toc-element>
+    <toc-element topic="test-editor.md">
+        <toc-element topic="nav-test-manager.md"/>
+        <toc-element topic="black-box-testing.md"/>
+        <toc-element topic="about-test-configurations.md"/>
+        <toc-element topic="what-are-test-types.md"/>
+        <toc-element topic="equivalence-classes.md">
+            <toc-element topic="theory-ecs.md"/>
+            <toc-element topic="practice-ecs.md"/>
+            <toc-element topic="ec-r-value-settings.md"/>
+            <toc-element topic="instance-component.md"/>
+            <toc-element topic="method-component.md"/>
+            <toc-element topic="test-case-table.md"/>
+            <toc-element topic="codegen.md"/>
+            <toc-element topic="side-effects.md"/>
+            <toc-element topic="run-test.md"/>
+            <toc-element topic="custom-assertions.md"/>
+            <toc-element topic="mocking.md"/>
+        </toc-element>
+        <toc-element topic="future-test-types.md">
+            <toc-element topic="api-testing.md"/>
+            <toc-element topic="decision-flow-table.md"/>
+            <toc-element topic="decision-flow-diagram.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="training.md">
+        <toc-element topic="github-repo.md"/>
+        <toc-element topic="equality-check.md"/>
+        <toc-element topic="test-managerx.md">
+            <toc-element topic="A-TM10-connect-codebase.md"/>
+            <toc-element topic="A-TM20-groups.md"/>
+            <toc-element topic="A-TM30-groups-organize.md"/>
+            <toc-element topic="A-TM40-create-test.md"/>
+        </toc-element>
+        <toc-element topic="Equivalence-Class-Partitioning.md">
+            <toc-element topic="basic.md">
+                <toc-element topic="generics.md"/>
+                <toc-element topic="arrays-lists-enums.md"/>
+                <toc-element topic="B-B60-complex-args-nested.md"/>
+                <toc-element topic="B-B50-complex-args-1.md"/>
+                <toc-element topic="B-B47-ec-naming.md"/>
+                <toc-element topic="B-B45-valid-invalid.md"/>
+                <toc-element topic="B-B40-water-state-instance.md"/>
+                <toc-element topic="B-B30-static-method-simple-boundaries.md"/>
+                <toc-element topic="simple-static-method.md"/>
+                <toc-element topic="about ecs.md"/>
+            </toc-element>
+            <toc-element topic="C-I01-advanced.md">
+                <toc-element topic="C-I80-custom-assertions.md"/>
+                <toc-element topic="C-I70-side-effects.md"/>
+                <toc-element topic="C-I60-effect-of-more-r-values.md"/>
+                <toc-element topic="C-I50-chained-methods.md"/>
+                <toc-element topic="C-I40-multiple-methods.md"/>
+                <toc-element topic="C-I30-scenarios.md"/>
+                <toc-element topic="C-I20-exceptions-pt2.md"/>
+                <toc-element topic="C-I10-mocking.md"/>
+            </toc-element>
+            <toc-element topic="D-C01-challenges.md"/>
+        </toc-element>
+        <toc-element topic="X-G100-git.md"/>
+    </toc-element>
+    <toc-element topic="roadmap.md">
+        <toc-element topic="in-progress.md"/>
+        <toc-element topic="short-term.md">
+        </toc-element>
+        <toc-element topic="medium-term.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="release-notes.md"/>
+    <toc-element topic="contact.md"/>
+</instance-profile>

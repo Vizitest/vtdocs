@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="752a2b0e">
+        <description>Created after removal of "Overview" from instanceName</description>
+        <accepts>decision-flow-diagram_overview.html</accepts>
+    </rule>
+    <rule id="76d78a0">
+        <description>Created after removal of "Next Up" from instanceName</description>
+        <accepts>Next-Up.html</accepts>
+    </rule>
+    <rule id="16d5ddc4">
+        <description>Created after removal of "Mocking" from instanceName</description>
+        <accepts>10-mocking.html</accepts>
+    </rule>
+    <rule id="58013c98">
+        <description>Created after removal of "Decision Flow Table" from instanceName</description>
+        <accepts>20-decision-flow-table.html</accepts>
+    </rule>
+    <rule id="6726330b">
+        <description>Created after removal of "Introduction" from instanceName</description>
+        <accepts>introduction.html</accepts>
+    </rule>
+    <rule id="674fd148">
+        <description>Created after removal of "Introduction" from instanceName</description>
+        <accepts>training_introduction.html</accepts>
+    </rule>
+</rules>
