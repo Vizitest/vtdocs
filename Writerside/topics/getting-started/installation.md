@@ -33,8 +33,9 @@ There are two ways to start Vizitest once the Vizitest service is installed and 
 When you start Vizitest for the first time, you will need to activate your trial license. You will be prompted to enter the email address you registered with.
 
 ## Learning Vizitest
-You are now ready to use Vizitest. You can find the following information to help you learn Vizitest.
+You are now ready to use Vizitest. This documentation covers key reference topics such as
 
-- [User Guide](nutshell.md) - a general reference.
+- [The Test Manager](test-manager-intro.md) for organizing test.
+- [The Test Editor](test-editor.md) for configuring tests.
 - [Training](training.md) - a set of tutorial modules accompanied by sample code.
 

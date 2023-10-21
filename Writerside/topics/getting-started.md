@@ -1,3 +1,3 @@
 # Getting started
 
-Everything you need to know about getting started with Vizitest.
+How to get Vizitest up and running.

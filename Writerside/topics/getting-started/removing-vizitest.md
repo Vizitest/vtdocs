@@ -1,7 +1,7 @@
 # Uninstalling Vizitest
-:::info 
-Any tests you have created will continue to run after removing Vizitest. 
-:::
+
+>Any tests you have previously created will continue to run after uninstalling Vizitest.
+{style="note"}
 
 To fully remove Vizitest from your machine, please follow these steps.
 

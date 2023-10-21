@@ -1,21 +1,23 @@
-# More Equivalence Classes and Representative Values means more Test Cases
+#Adding More Equivalence Classes and Representative Values
 **Unit C-I60** / **Repo folder : C_I40_MultipleMethods** 
 
-You may have asked yourself 
+You may have asked yourself what are the consequences of adding 
 
-- what happens if you add more and more Representative values within a single Equivalence Class
-- or what happens if you add more Equivalence Classes.
+- more and more Representative values within a single Equivalence Class
+- more Equivalence Classes.
 
-In theory, you should try to only add the requisite number of each. 
+In theory, you should only add the right number of each. Not too many, and not too few. 
 
-You configure your test based on the requirements and there will be a minimum number of Equivalence Classes you would add to configure an adequate test. And within each Equivalence Class, you would choose the minimum number or Representative Values to perform the test adequately.
+You configure your test based on the requirements and there will be a minimum number of Equivalence Classes you would add to configure an adequate test that meets the requirements. 
 
-In summary, the more Equivalence Classes and Representative Values you add, the more Test Cases you will end up with.
+Within each Equivalence Class, you would choose the minimum number of Representative Values to perform the test adequately.
 
-While there is nothing inherently wrong with this, you should bear in mind the following.
+You should be aware, though, that the more Equivalence Classes and Representative Values you add, the more Test Cases will be generated, if you choose to ask Vizitest to auto-generate test cases. 
 
-- Your test will take longer to run the more test cases you have. This might be only a tiny difference, but it's worth knowing for when you have thousands of tests that all need to run.
-- You need to match the Verifications to the auto-generated inputs in the Test Case Table. If you have a large number, this will take longer.
+While there is nothing inherently wrong with this, you should be aware of the following.
+
+- Your test will take longer to run the more test cases you have. This doesn't matter for a smaller number of test cases but could impact speed when there is a large number of test cases.
+- You need to match the Expected responses to the auto-generated inputs in the Test Case Table. If you have a large number, this will take longer.
 
 ## Prep
 - Find and open the training code C_I40_MultipleMethods you [cloned from GitHub](github-repo.md).

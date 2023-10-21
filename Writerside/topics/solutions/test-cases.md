@@ -1,23 +1,21 @@
 # The Test Case problem
 
->*"How on earth do I know what data to test with and what combinations of parameters I should test with in order to write a high quality test?*
+>"*How do I know how many cases I should test in order to actually achieve high quality? And how can I choose suitable values for each case?*"
 
 ## The Problem
 There is a science to generating the right test cases for a test. 
 
-All but the simplest methods need testing with all important combinations of parameters and data. Calculating this is tough. 
+All but the simplest methods need testing with a variety of important combinations of parameters and data. Calculating these combinations is not simple. 
 
-In the case of Equivalence Class Partitioning, it is a science. In the case of other test types, it is a mix of art and science. The possible impact of poorly designed test case :
-
-- You may end up with too few test cases and you affect quality
-- Or too many test cases, some of which are unnecessary and redundant and incur time and cost.
+Vizitest's [Equivalence Class Partitioning](equivalence-classes.md) employs an algorithmic approach to test case creation. Other test types use a mix of art and science.
 
 When trying to manually code more rigorous Test Case solutions you will often find yourself ...
-- thinking about Test Cases based on thinking rather than letting an algorithm do the work for you
-- spending time debugging the test code, let alone the functional code.
+
+- considering Test Cases based on thinking rather than letting an algorithm do the work for you
+- spending time debugging test code
 - constructing arcane and hard-to-maintain Test Case Table lookup systems.
-- creating too few test cases, affecting quality
-- creating too many test cases, incurring time and cost penalties.
+- creating too few important test cases, affecting quality
+- writing too many test cases, some of which are unnecessary or redundant, that take time to code and maintain and so incur cost.
 
 ## The Solution
 Vizitest is based on the concept of Test Types.
