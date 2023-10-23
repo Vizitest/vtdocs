@@ -5,20 +5,24 @@ on:
   # Replace `main` with your branch’s name
   push:
     branches: ["main"]
-
   # Specify to run a workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
+# Gives the workflow permissions to clone the repo and create a page deployment
+permissions:
+  id-token: write
+  pages: write
+
 env:
-  # Name of module and id, separated by a slash
+  # Name of module and id separated by a slash
   INSTANCE: Writerside/in
   # Replace HI with the ID of the instance in capital letters
   ARTIFACT: webHelpIN2-all.zip
   # Writerside docker image version
-  DOCKER_VERSION: 2.1.1479-p3869
+  DOCKER_VERSION: 2.1.232.10165
   # Add the variable below to upload Algolia indexes
   # Replace HI with the ID of the instance in capital letters
-  # ALGOLIA_ARTIFACT: algolia-indexes-HI.zip x
+  #ALGOLIA_ARTIFACT: algolia-indexes-HI.zip
 
 jobs:
   build:
@@ -45,12 +49,12 @@ jobs:
           retention-days: 7
 
       # Add the step below to upload Algolia indexes
-      - name: Upload algolia-indexes
-        uses: actions/upload-artifact@v3
-        with:
-          name: algolia-indexes
-          path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
-          retention-days: 7
+      #- name: Upload algolia-indexes
+      #  uses: actions/upload-artifact@v3
+      #  with:
+      #    name: algolia-indexes
+      #    path: artifacts/${{ env.ALGOLIA_ARTIFACT }}
+      #    retention-days: 7
 
   # Add the job below and artifacts/report.json on Upload documentation step above if you want to fail the build when documentation contains errors
   test:
