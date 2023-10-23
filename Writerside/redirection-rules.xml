@@ -30,4 +30,8 @@
         <description>Created after removal of "Introduction" from instanceName</description>
         <accepts>training_introduction.html</accepts>
     </rule>
+    <rule id="dbda881">
+        <description>Created after removal of "Lana page 2" from main</description>
+        <accepts>lana-page-2.html</accepts>
+    </rule>
 </rules>
