@@ -31,7 +31,7 @@ Initially, this will seem like an innocuous problem and one that you might choos
 Over time, though, these problems will add up, and you'll spend so much time debugging the test that you'll likely end up simply disabling many tests for expediency reasons. And so you lose all the benefits of testing.
 
 ## Integration tests
-AI is not well suited to more complex testing scenarios. It cannot be expected to understand the combination of method calls you want to use.
+AI is not well suited to more complex testing scenarios in most cases. It cannot be expected to understand the combination of method calls you want to use.
 
 ## The Solution
 Vizitest's guiding principle is to allow you to decide which Test Type you want to use, then apply some thought to the requirements mapping before  auto-generating your test cases and test code.
