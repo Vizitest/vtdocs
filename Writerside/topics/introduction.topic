@@ -24,6 +24,7 @@
         <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
             <a href="nutshell.md" type="presentation" summary="Vizitest in a nutshell - a couple of videos explaining core Vizitest concepts.">Vizitest Overview</a>
+            <a href="training.md" type="learn" summary="Get started with step-by-step training.">Vizitest Training</a>
         </spotlight>
 
         <!--    Add several topics that are most important for this section.    -->
