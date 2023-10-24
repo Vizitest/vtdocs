@@ -1,28 +1,15 @@
 # Contacting Us
 
-We want Vizitest to be as good as it can be. To achieve this we need to have as many conversations as possible with our users.
+To help us make Vizitest as good as it can be for our users, we want to make getting hold of us as frictionless as possible. 
 
-We hope that one of the following ways of getting directly in touch with us works for you.
+Hopefully one of these works for you.
 
-
-## Slack
-[Click here to open](https://app.slack.com/client/T05PGM7FLES/C05PP7X99MH) in Slack.
-
-## Teams
-Please click here to send an email to us so we can invite you to our Teams Community Channel. Or just email support@vizitest.com.
-
-## Live Chat
-You can find the Live Chat icon in the bottom right corner of this site as well as in the Vizitest product.
-
-## Support Ticket
-You can submit a [support ticket here](https://vizitest.com/support).
-
-## Community Forum
-We expect to have our Community Forum page available before the end of September 2023.
-
-## Email
-Email support@vizitest.com. This will automatically create a support ticket at our end, so it won't go unread.
-
-## Sales related questions
-Please email sales@vizitest.com
+| **Channel**        | **Action**                                                                                                      |
+|----------------|-------------------------------------------------------------------------------------------------------------|
+| **Slack**          | [Click here to open](https://vizitest.slack.com) in Slack                                                   |
+| **Teams**          | Email us at [support@vizitest.com](mailto:support@vizitest.com) for an invitation link.                     |
+| **Live Chat**      | Once you've installed Vizitest, you can find the Live Chat icon in the bottom right corner of your browser. |
+| **Support Ticket** | Submit a [support ticket here](https://vizitest.com/support).                                               |      
+| **Email**          | Email us at [support@vizitest.com](mailto:support@vizitest.com?subject=Vizitest+support+inquiry).           |  
+| **Sales query**    | Please email sales enquiries to [sales@vizitest.com](mailto:sales@vizitest.com).                            |  
 

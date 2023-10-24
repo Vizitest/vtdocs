@@ -6,9 +6,8 @@
                   name="Vizitest Documentation" start-page="introduction.topic">
 
     <toc-element topic="introduction.topic"/>
+    <toc-element topic="contact.md"/>
     <toc-element topic="nutshell.md"/>
-    <toc-element topic="lana-page-1.md"/>
-    <toc-element topic="lana-page-2.md"/>
     <toc-element topic="Problems-we-solve.md">
         <toc-element topic="code-coverage.md"/>
         <toc-element topic="test-cases.md"/>
@@ -74,26 +73,26 @@
         </toc-element>
         <toc-element topic="Equivalence-Class-Partitioning.md">
             <toc-element topic="basic.md">
-                <toc-element topic="generics.md"/>
-                <toc-element topic="arrays-lists-enums.md"/>
-                <toc-element topic="B-B60-complex-args-nested.md"/>
-                <toc-element topic="B-B50-complex-args-1.md"/>
-                <toc-element topic="B-B47-ec-naming.md"/>
-                <toc-element topic="B-B45-valid-invalid.md"/>
-                <toc-element topic="B-B40-water-state-instance.md"/>
-                <toc-element topic="B-B30-static-method-simple-boundaries.md"/>
-                <toc-element topic="simple-static-method.md"/>
                 <toc-element topic="about-ecs.md"/>
+                <toc-element topic="simple-static-method.md"/>
+                <toc-element topic="B-B30-static-method-simple-boundaries.md"/>
+                <toc-element topic="B-B40-water-state-instance.md"/>
+                <toc-element topic="B-B45-valid-invalid.md"/>
+                <toc-element topic="B-B47-ec-naming.md"/>
+                <toc-element topic="B-B50-complex-args-1.md"/>
+                <toc-element topic="B-B60-complex-args-nested.md"/>
+                <toc-element topic="arrays-lists-enums.md"/>
+                <toc-element topic="generics.md"/>
             </toc-element>
             <toc-element topic="C-I01-advanced.md">
-                <toc-element topic="C-I80-custom-assertions.md"/>
-                <toc-element topic="C-I70-side-effects.md"/>
-                <toc-element topic="C-I60-effect-of-more-r-values.md"/>
-                <toc-element topic="C-I50-chained-methods.md"/>
-                <toc-element topic="C-I40-multiple-methods.md"/>
-                <toc-element topic="C-I30-scenarios.md"/>
-                <toc-element topic="C-I20-exceptions-pt2.md"/>
                 <toc-element topic="C-I10-mocking.md"/>
+                <toc-element topic="C-I20-exceptions-pt2.md"/>
+                <toc-element topic="C-I30-scenarios.md"/>
+                <toc-element topic="C-I40-multiple-methods.md"/>
+                <toc-element topic="C-I50-chained-methods.md"/>
+                <toc-element topic="C-I60-effect-of-more-r-values.md"/>
+                <toc-element topic="C-I70-side-effects.md"/>
+                <toc-element topic="C-I80-custom-assertions.md"/>
             </toc-element>
             <toc-element topic="D-C01-challenges.md"/>
         </toc-element>
@@ -107,5 +106,4 @@
         </toc-element>
     </toc-element>
     <toc-element topic="release-notes.md"/>
-    <toc-element topic="contact.md"/>
 </instance-profile>
