@@ -9,6 +9,7 @@
             <algolia-id>NZH5O9OS7U</algolia-id>
             <algolia-index>vt_docs</algolia-index>
             <algolia-api-key>efff326b55134abbce44c684322fede5</algolia-api-key>
+            <analytics-head-script-file>gtag.js</analytics-head-script-file>
         </variables>
     </build-profile>
 </buildprofiles>
