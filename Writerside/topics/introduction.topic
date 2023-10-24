@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Introduction" id="introduction" help-id="Section-Starting-Page">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Vizitest Documentation and Support</title>
+        <description>
+            Welcome to the Vizitest help center.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="nutshell.md" type="presentation" summary="Vizitest in a nutshell - a couple of videos explaining core Vizitest concepts.">Vizitest Overview</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>User Guide and Training</title>
+            <a href="getting-started.md" type="start" summary="Installing Vizitest and getting up and running quickly.">Getting Started</a>
+            <a href="test-manager-intro.md" type="library" summary="Problems faced when implementing a testing strategy and how Vizitest helps.">Problems we solve</a>
+            <a href="test-manager-intro.md" type="library" summary="Learn about the Test Manager and Test Editor">User Guide</a>
+            <a href="training.md" type="learn" summary="Step-by-step training materials to help you learn Vizitest one step at a time.">Training</a>
+        </primary>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <secondary>
+            <title>Support</title>
+            <a href="contact.md" type="community" summary="Contact us by email, support ticket or on your preferred chat channel">Chat and support channels</a>
+        </secondary>
+
+    </section-starting-page>
+
+</topic>

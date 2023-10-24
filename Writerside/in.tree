@@ -3,8 +3,9 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                  name="Vizitest Documentation" start-page="contact.md">
+                  name="Vizitest Documentation" start-page="introduction.topic">
 
+    <toc-element topic="introduction.topic"/>
     <toc-element topic="nutshell.md"/>
     <toc-element topic="lana-page-1.md"/>
     <toc-element topic="lana-page-2.md"/>

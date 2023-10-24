@@ -34,4 +34,12 @@
         <description>Created after removal of "Lana page 2" from main</description>
         <accepts>lana-page-2.html</accepts>
     </rule>
+    <rule id="ef41daf">
+        <description>Created after removal of "Empty XML Topic" from Vizitest Documentation</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
+    <rule id="60802a2e">
+        <description>Created after removal of "Introduction" from Vizitest Documentation</description>
+        <accepts>Introduction.html</accepts>
+    </rule>
 </rules>
