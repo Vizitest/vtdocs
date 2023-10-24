@@ -19,7 +19,7 @@
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <title>User Guide and Training TEST</title>
+            <title>User Guide and Training TEST2</title>
             <a href="getting-started.md" type="start" summary="Installing Vizitest and getting up and running quickly.">Getting Started</a>
             <a href="test-manager-intro.md" type="library" summary="Problems faced when implementing a testing strategy and how Vizitest helps.">Problems we solve</a>
             <a href="test-manager-intro.md" type="library" summary="Learn about the Test Manager and Test Editor">User Guide</a>
