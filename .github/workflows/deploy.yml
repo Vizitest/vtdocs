@@ -27,7 +27,7 @@ env:
   ALGOLIA_INDEX_NAME: vt_docs
   ALGOLIA_KEY: ${{ secrets.ALGOLIA_KEY }}
   CONFIG_JSON_PRODUCT: IN
-  CONFIG_JSON_VERSION: 2.0
+  CONFIG_JSON_VERSION: 2
 
 jobs:
   build:
