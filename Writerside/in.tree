@@ -22,7 +22,7 @@
         <toc-element topic="system-requirements.md"/>
         <toc-element topic="installation.md"/>
         <toc-element topic="starting.md"/>
-        <toc-element topic="updating.md"/>
+        <toc-element topic="Learning-how-to-use-Vizitest.md"/>
         <toc-element topic="removing-vizitest.md"/>
     </toc-element>
     <toc-element topic="test-manager-intro.md">

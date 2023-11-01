@@ -9,7 +9,7 @@ The goal of this page is to define and explain three important terms
 ## Requirements
 Let's start off with a simple requirements statement as a backdrop. Physicists might want to argue about the temperatures used, but we're keeping it simple!
 
-**We have a method that expects a temperature of water to be input. It should return the state of the water as a string.**
+**We have a method that expects a water temperature as an input. It should return the state of the water as a string.**
 
 - The input parameter should be a floating point value
 - The method is expected to return ```solid``` if the temperature is ```<=0```
@@ -19,12 +19,12 @@ Let's start off with a simple requirements statement as a backdrop. Physicists m
 
 ## What is an Equivalence Class?
 
-***An Equivalence Class is a named set of values, each of which is considered to be representative of that set and the behavior of the system is the same or Equivalent.***
+**_An Equivalence Class is a named set of values, each of which is considered to be representative of that set and the behavior within the set is the same or "Equivalent"._**
 
 To illustrate this, lets look at the state of water at different temperatures. There will be those who want to argue about exactly when water freezes or turns to steam, but for the sake of simplicity, let's assume it is at 0 and 100.
 
 
-<img src="ec-definition.png" alt="example" width="500"/>
+<img src="ec-definition.png" alt="ec definition" width="500"/>
 
 Let's assume we have a method that returns the state based on temperature as an input value.
 

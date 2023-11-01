@@ -1,64 +1,80 @@
 # The Test Case Table
 
+The Test Case Table defines one or more distinct test cases, each of which runs against the Method Components in your test Configuration.
+
 <tip>
     <p>
         When you add a Method Component, a <a href="test-case-table.md">Test Case Table</a> is automatically added. 
     </p>
 </tip>
 
-The Test Case Table contains the Test Cases will be used to test your methods.
+<img src="test-case-table-simple.png" alt="test case table" width="900"/>
 
-Initially, the table will be empty. When you have finished configuring your instance and method components, you can add Test Cases in one of two ways.
+- The first Test Case, **Ice**, uses the value ```-10.0``` and is expected to output the string value ```ice```.
+- The third test Case, **Invalid**, use the input value ```-300.0``` and is expected to return the string value ```invalid temperature```.
 
-- Add test cases manually by pressing the **Add Test Case** button.
-- Instruct Vizitest to generate your test cases by pressing the **Generate Test Cases** button. This  uses the "Pairwise Combination" algorithm to choose Instance and Input parameter values for you.
+## Creating Test Cases
+There are two ways of creating Test Cases.
 
+<img src="test-case-table-add-buttons.png" alt="test case table adding test cases" width="900"/>
 
-[TODO - screenshot]
+### Manual
+Add and define your own Test Case. This is a good way to control your Test Cases but requires you to build up a good and complete of Test Cases.
+
+Press the **+Add Test Case** button to add a new Test Case column, then set the Inputs and Outputs as explained below.
+
+### Automatic
+Lets Vizitest generate an optimal set of Test Cases for you using a best practice algorithm (Pairwise Combination). You can remove or add Test Case afterwards.
+
+This should not be used for methods that [TODO : Daniel???]
+
+Press the **>> Generate Test Cases** button. Inputs will be automatically chosen but you will need to specify the expected Outputs as explained below.
 
 ## Positive and negative test cases
-At the top of each column you will see whether a test cases is 
+At the top of each column you will see whether a Test Case is expected to yield a positive or negative outcome.
 
-- **Positive** - all the Representative values from Instance and Method Input parameters belong to valid Equivalence Classes
-- **Negative** - one or more of the Representative values from Instance and Method Input parameters belong to invalid Equivalence Classes
+<img src="test-case-table-col-headers.png" alt="test case table" width="900"/>
+
+- **Positive** - automatically colored green if all the Representative values from Instance and Method Inputs as well as the Outputs belong to **valid** Equivalence Classes
+- **Negative** - automatically colored red if one or more of the Representative values from Instance and Method Inputs as well as Outputs belong to an invalid Equivalence Class.
 
 This has two purposes
 
 - It is a very useful visual indicator when you match Verifications (see below).
-- It is used to control the assertion within the test code itself.
+- Vizitest uses this in the [Generated Test Code](codegen.md) to control the assertion itself. You do not need to do anything specifically.
 
 ## Input parameters
-For each auto-generated test cases, Vizitest chooses a single Representative Value to use. You can see which one was selected as it will show the value. All other cells in the test case column will be empty.
 
-Although you can change the selected parameter by clicking on another value, you should be careful doing so. Vizitest's algorithm purposefully chooses these values.
+<img src="test-case-table-input.png" alt="test case table input" width="900"/>
 
-You might want to add your own manual test cases, which is described [below](test-case-table.md#adding-a-manual-test-case).
+For each auto-generated Test Case, shows the Representative Value to use. This can be edited and will show available values as defined in Instance or Method components.
 
-## Matching Verifications to Inputs
-You will not be able to generate your test code until all any used Verifications have been specified by you.
+The above screenshot shows the user having licked on the second Test Cases, You can see the value ```50.00``` has been selected.
 
-For each test case, selected the expected Verification by clicking in the Verification cell and choosing a value. You will choose the value based on the Input values. 
+If you Test Cases were automatically generated, these will be prefilled.
 
-## Adding a manual test case
-You do not actually need to use **Generate Test Cases** at all if you want to do everything manually by adding test cases yourself.
-
-Alternatively, you might want to add a specific or important test case just to be sure it is being considered.
-
-Press the **Add Test Case** button and a new column will be added to the test case table.
-
-You should then ensure that all Instance and Method inputs have values selected by clicking in the appropriate cell.
-
-You would then set the expected Verification to match.
+You would usually need all Input parameter cells to have values specified to be able to [Generate Test Code](codegen.md).
 
 
-## Editing test case header and other labels
+## Matching Outputs to Inputs
+
+<img src="test-case-table-output.png" alt="test case table output" width="900"/>
+
+The Output for each Test Case will need to be manually matched by you in order to be complete, ready for [Test Code Generation](codegen.md).
+
+This is the case even if you generated Test Case automatically.
+
+
+## Test Case metadata
 You can change the test case title (Positive N to anything else) by clicking the label. You do not need to do this unless you want specific labelling in your test runner output or the test code comments.
 
-You can also add the following information by clicking on the down arrow next to the title.
+<img src="test-case-table-extra.png" alt="test case table extra info" width="900"/>
 
-- Description - this is used for [TODO]
-- Code comment - [TODO]
-- Link  - [TODO]
+You can also add the following information by clicking on the down arrow next to the title (circled).
+
+- Description - Will appear when you hover on the Test Case title.
+- Code comment - text that should be inserted into the generated test code.
+- Link - a link to any external URL you may want to include as a reference. 
 
 
 ## Removing test cases
@@ -67,5 +83,8 @@ There are two ways to remove test cases.
 - Remove a single test case by pressing the trash icon.
 - Remove all test cases by pressing the **Remove All Test Cases** button.
 
+<img src="test-case-table-remove.png" alt="delete test case" width="900"/>
+
+
 ## Generating test code
-The final step is to [generate the test code](codegen.md).
+Once your Test Cases have been fully configured with Input and Output values, you are ready to [generate the test code](codegen.md).

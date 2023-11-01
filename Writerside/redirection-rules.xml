@@ -46,4 +46,8 @@
         <description>Created after removal of "lana-page-1" from Vizitest Documentation</description>
         <accepts>lana-page-1.html</accepts>
     </rule>
+    <rule id="7d288fbb">
+        <description>Created after removal of "Updating Vizitest" from Vizitest Documentation</description>
+        <accepts>updating.html</accepts>
+    </rule>
 </rules>

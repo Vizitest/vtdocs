@@ -1,9 +1,10 @@
 # API Testing
 
-Start typing here...# Overview
-** *Available in Q1 2024 with REST support.* **
+## AVAILABLE IN Q1 2024 with REST SUPPORT
 
-There are plenty of ways APIs can be tested using 3rd party tools such as Postman or manually coded test frameworks.
+## Overview
+
+There are plenty of ways APIs can be tested using 3rd party tools such as Postman or other tools.
 
 So, what can I do with Vizitest and what is different to other products on the market?
 
@@ -21,7 +22,7 @@ One of our main goals is to provide an environment where tests are
 - nicely organized using the Test Manager and
 - visually configured using the Test Editor.
 
-[TODO : screenshot of Test Manager + Method for now until new component is added]
+
 
 ## API schema
 There are two ways to discover the schema of any API call.
