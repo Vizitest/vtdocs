@@ -1,4 +1,4 @@
-# Other Test Configuration actions
+# All Configuration actions
 
 When you hover on a Test Configuration, you can see the following actions
 

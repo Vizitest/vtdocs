@@ -6,8 +6,8 @@
                   name="Vizitest Documentation" start-page="introduction.topic">
 
     <toc-element topic="introduction.topic"/>
-    <toc-element topic="contact.md"/>
     <toc-element topic="nutshell.md"/>
+    <toc-element topic="contact.md"/>
     <toc-element topic="Problems-we-solve.md">
         <toc-element topic="code-coverage.md"/>
         <toc-element topic="test-cases.md"/>

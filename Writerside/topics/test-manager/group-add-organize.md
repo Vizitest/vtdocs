@@ -18,6 +18,11 @@ All Vizitest configuration data is stored in the ```.vizitest``` folder in the r
 
 The folder structure within this mirrors the structure of your project's Groups. Test Configurations are stored within folders.
 
-:::danger
-You should be very careful when modifying the structure and contents. Generally speaking there is no reason to do so as it's all managed by Vizitest.
-:::
+<warning>
+    <p>
+        You should be very careful when modifying the structure and contents. You are likely to break the Test Manager if you do so. 
+    </p>
+    <p>
+        Generally speaking there is no reason to do so as it's all managed by Vizitest.
+    </p>
+</warning>

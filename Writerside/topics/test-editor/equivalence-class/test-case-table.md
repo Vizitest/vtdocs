@@ -1,19 +1,26 @@
 # The Test Case Table
-The Test Case Table shows your auto-generated test cases.
 
-Initially, the table will be empty. When you have finished configuring your instance and method components, you can instruct Vizitest to generate your test cases by pressing the **Generate Test Cases** button.
+<tip>
+    <p>
+        When you add a Method Component, a <a href="test-case-table.md">Test Case Table</a> is automatically added. 
+    </p>
+</tip>
 
-Once this is completed, the table will show the test cases, one test case per column.
+The Test Case Table contains the Test Cases will be used to test your methods.
+
+Initially, the table will be empty. When you have finished configuring your instance and method components, you can add Test Cases in one of two ways.
+
+- Add test cases manually by pressing the **Add Test Case** button.
+- Instruct Vizitest to generate your test cases by pressing the **Generate Test Cases** button. This  uses the "Pairwise Combination" algorithm to choose Instance and Input parameter values for you.
+
 
 [TODO - screenshot]
-
-Vizitest uses the "Pairwise Combination" algorithm to choose Instance and Input parameter values.
 
 ## Positive and negative test cases
 At the top of each column you will see whether a test cases is 
 
-- Positive - all the Representative values from Instance and Input parameters belong to valid Equivalence Classes
-- Negative - one or more of the Representative values from Instance and Input parameters belong to invalid Equivalence Classes
+- **Positive** - all the Representative values from Instance and Method Input parameters belong to valid Equivalence Classes
+- **Negative** - one or more of the Representative values from Instance and Method Input parameters belong to invalid Equivalence Classes
 
 This has two purposes
 
@@ -28,7 +35,7 @@ Although you can change the selected parameter by clicking on another value, you
 You might want to add your own manual test cases, which is described [below](test-case-table.md#adding-a-manual-test-case).
 
 ## Matching Verifications to Inputs
-You will not be able to generate your test code until all Verifications have been specified by you.
+You will not be able to generate your test code until all any used Verifications have been specified by you.
 
 For each test case, selected the expected Verification by clicking in the Verification cell and choosing a value. You will choose the value based on the Input values. 
 
@@ -61,4 +68,4 @@ There are two ways to remove test cases.
 - Remove all test cases by pressing the **Remove All Test Cases** button.
 
 ## Generating test code
-The final step is to generate your actual test code. [Click here](codegen.md) to read about it.
+The final step is to [generate the test code](codegen.md).

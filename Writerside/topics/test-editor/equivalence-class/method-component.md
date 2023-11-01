@@ -2,6 +2,12 @@
 
 Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](practice-ecs.md) pages if you are not yet familiar with Equivalence Classes.
 
+<tip>
+    <p>
+        When you add a Method Component, an Instance Component will automatically insert an <a href="instance-component.md" >Instance Component</a> (the method's parent class) and a <a href="test-case-table.md">Test Case Table</a>. 
+    </p>
+</tip>
+
 ## 1. Add the Method
 When you want to test a method, you use the Method component. To add a new one to the canvas
 

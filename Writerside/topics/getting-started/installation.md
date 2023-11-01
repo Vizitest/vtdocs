@@ -28,10 +28,6 @@ There are two ways to start Vizitest once the Vizitest service is installed and 
 
 ![](intellij-startup.png)
 
-
-## Activate Trial
-When you start Vizitest for the first time, you will need to activate your trial license. You will be prompted to enter the email address you registered with.
-
 ## Learning Vizitest
 You are now ready to use Vizitest. This documentation covers key reference topics such as
 
