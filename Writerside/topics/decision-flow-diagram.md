@@ -1,10 +1,10 @@
 # Decision Flow Diagram
 
+## AVAILABLE Q2 2024
+
 ## Overview
-** *Available in Q2 2024* **
 
-
-This **Decision Flow Diagram** is similar in concept to the [Decision Flow Table](decision-flow-table.md).
+The **Decision Flow Diagram** is similar in concept to the [Decision Flow Table](decision-flow-table.md).
 
 The screenshot below is a very rough mockup.
 
