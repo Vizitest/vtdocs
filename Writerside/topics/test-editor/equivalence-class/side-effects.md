@@ -1,7 +1,8 @@
 # Side Effects
-You configure **Side Effects** in the right hand column of the Method component.
 
-[TODO : screenshot]
+## NOT CURRENTLY AVAILABLE. COMING VERY SOON.
+
+You configure **Side Effects** in the right hand column of the Method component.
 
 ## When to use it?
 You would use a Side Effects if the Method Under test
@@ -13,6 +14,5 @@ You would use a Side Effects if the Method Under test
 1. In the Verification -> Side Effects section of the Method component, hover over the title bar and select **+ Side effect**.
 1. You can now add your Equivalence Class and Representative values in the normal way.
 
-[TODO : this explanation is wrong.not deep enough. needs a full example]
 
 

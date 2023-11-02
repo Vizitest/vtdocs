@@ -1,13 +1,12 @@
 # Create a Test Configuration
-Test Configurations are where your actual unit and integration tests are configured.
+A Test Configuration is where your actual unit and integration tests are found. A Test Configuration lives within a Group on the Test Manager canvas.
 
-## Create the Test Configuration
-- Assuming you've completed the [Creating and labelling Groups](A-TM20-groups.md), go ahead and create a Test Configuration called **Water State** in the **Unit Tests** Group as [explained here](test-config-add.md).
-- If you haven't add it to any Group you choose.
+- Choose or create a Group.
+- Create a Test Configuration called **Water State** in the **Unit Tests** Group as [explained here](test-config-add.md).
 
 You should now see your new Test Configuration in the Group.
 
-<img src="ut-water-state.png" width="400"/>
+<img src="ut-water-state.png" alt="water state diagram" width="400"/>
 
-## Open the Test Editor
-Now open the Test Editor by clicking the pencil icon. 
+That's it for Test Manager training units. We're now ready to work with a Test Configuration. [Click here](about-ecs.md) to get started.
+

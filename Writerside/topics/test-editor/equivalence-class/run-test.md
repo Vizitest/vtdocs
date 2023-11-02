@@ -8,14 +8,18 @@ Vizitest test code makes heavy use of parameterization. Each test case will have
 
 [TODO - example code]
 
-This makes your code clean and compact as well as readable.
+This makes your code clean, compact AND readable.
 
 ## What can I customize?
-Typically, a Vizitest generated test does not need much or any handwritten coding. However, there are some cases where this is either desirable or required.
+Typically, a Vizitest generated test does not need any EXTRA handwritten coding. However, there are some cases where this is either desirable or required.
 
-If you have used any of the following in your Test Configuration then you will need to 
+## Required Coding
+If you have used any of the following in your Test Configuration then you will need to add custom code to the generated code file. 
 
 ### Custom Assertions
-You may want to 
+COMING SOON
+
+### User Methods
+[TODO : Daniel]
 
 

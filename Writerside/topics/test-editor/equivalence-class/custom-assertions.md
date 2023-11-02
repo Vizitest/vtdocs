@@ -1,5 +1,8 @@
 # Creating and coding Custom Assertions
-Custom Assertions allow you to handle your own assertion logic. 
+
+## COMING VERY SOON
+
+Custom Assertions allow you write code to handle your own assertion logic. Rather than the Output assertion being automatically handled by Vizitest, it can be desirable for you to code your own logic to handle the assertion. 
 
 ## Creating
 You specify the use of a Custom Assertion in the [Method component](method-component.md).
@@ -10,7 +13,7 @@ You specify the use of a Custom Assertion in the [Method component](method-compo
 2. Select the dropdown, which will initially contain ```null```.
 3. Press the **Add new** button. You will then see the following dialog.
 
-[TODO - screenshot and instructions; not currently working]
+[TODO - screenshot and instructions]
 
 
 ## Coding
@@ -31,7 +34,7 @@ You should replace with internal boilerplate code with your own assertion logic.
 ### Custom Assertion method arguments
 The Custom Assertion method will always have at least one argument but may have up to three.
 
-[TODO - Daniel please check all this below VERY CAREFULLY]
+[TODO - Daniel please check below for accuracy]
 
 #### The ```data``` argument
 This is always present. It has the rather lengthy and not too nicely named type of ```CustomMatcherCustomAssertionNameTestData``` where **CustomAssertionName** is the name you specified when defining the Custom Assertion in the Method component.

@@ -1,11 +1,17 @@
-# Starting Vizitest
-Vizitest is started whenever IntelliJ starts. This can take a short while. You will get a notification once successfully started.
+# Launching Vizitest
+The Vizitest services are started whenever IntelliJ starts. This can take a short while. You will get an IntelliJ notification once successfully started.
 
-You can then start the Vizitest Manager in any of the following ways.
+You can then start the Vizitest [Test Manager](test-manager-intro.md) in either of the following ways.
 
-- Click the link in the "Vizitest Started" Notification.
-- Click the **Vizitest** or **{}** (OS dependent) menu item
-  - Select either **Open In IDE** 
-  - or **Open in Browser**.
-- It's generally easier to open Test Configurations from the Test Manager, but can also open them directly by double-clicking on a ```.tconfig``` file in the ```.vizitest``` folder in the root of your codebase.
+- Click the link in the **Vizitest Started** Notification.
+<img src="intellij-open-vt.png" alt="connecting groups" width="400"/>
+
+
+- Select the IntelliJ **Vizitest** or **{}** (OS dependent) menu item. You can then choose
+<img src="intellij-menu.png" alt="connecting groups" width="400"/>
+  - Select **Open in Browser** (recommended).
+  - or **Open In IDE** (less space)
+
+
+
 

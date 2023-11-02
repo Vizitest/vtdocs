@@ -1,6 +1,6 @@
 # Add a Test Configuration
 
-Test Configurations are added to Groups. Once you've identified the Group you want to add your new Test Configuration to, click on the + icon.
+Test Configurations are added to Groups. Find the Group to which you want to add your new Test then click **+** icon.
 
 <img src="add-test.png" alt="add test configuration" width="300"/>
 

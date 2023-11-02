@@ -2,10 +2,21 @@
 
 Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](practice-ecs.md) pages if you are not yet familiar with Equivalence Classes.
 
+<tip>
+    <p>
+        It will help if you have read <a href="ec-r-value-settings.md">Setting Equivalence Classes and Representative</a> Values
+    </p>
+</tip>
+<tip>
+    <p>
+        When you add a Method Component, an Instance Component will automatically insert an <a href="instance-component.md" >Instance Component</a> (the method's parent class) and a <a href="test-case-table.md">Test Case Table</a>. 
+    </p>
+</tip>
+
 ## 1. Add the Method
 When you want to test a method, you use the Method component. To add a new one to the canvas
 
-<img src="method-class-search.png" alt="Class method search" width="600"/>
+<img src="ec-method-search.png" alt="Class method search" width="600"/>
 
 - Click on the + icon as shown in the image above to open the search dialog.
 - Enter the name of the method you want to add (you can filter using the dropdown).
@@ -15,14 +26,19 @@ You should now see a new component on the canvas.
 
 <img src="method-component.png" alt="method component"/>
 
-You will notice that the Method component has several sections, divided into Inputs and Verification.
+<warning>
+<p>
+At the time of writing, you may not see Custom Assertions and Side Effects. These are coming shortly.
+</p>
+</warning>
 
-Your final configuration will be used by the [Test Case Table](test-case-table.md).
+The Method component has several sections, divided into **Input** and **Output** columns.
+<img src="empty-method-component.png" alt="empty method compponent" width="700"/>
 
-## Inputs
+## Input column
 The Input column will contain several sections, one for each method parameter. You should create at least one Equivalence Class for each parameter with at least one Representative Value in each Equivalence Class.
 
-## Verification
+## Output column
 This is where you define possible/expected outputs from the method. These are divided into the following sections.
 
 - **Expected Values** - one or more Equivalence Classes (usually just one) with one Representative Value for each expected value you want to test against.
@@ -31,17 +47,20 @@ This is where you define possible/expected outputs from the method. These are di
 - **Side Effects** - if your method a) doesn't return a value that you can test against and b) mutates the object properties such then you can use Side Effects to test against the state of the object after the method has executed. Please refer to the [Side Effects page](side-effects.md) for a more detailed explanation.
 
 ## 2. Add Equivalence Class(es)
-Currently, you need to add at least one Equivalence Class and one Representative Value, even if the constructor doesn't have any arguments. 
+You will typically have at least one Equivalence Class for each Input and Output. Vizitest creates Valid Values and Invalid Values for you by default.
 
-This is described in detail [on this page](ec-r-value-settings.md#adding-an-equivalence-class-to-an-instance).
+Creating Equivalence Classes is described in detail [on this page](ec-r-value-settings.md#adding-an-equivalence-class-to-an-instance).
 
 ## 3. Add Representative Values
-Each Equivalence Class requires at least one Representative Value.
+Each Equivalence Class will usually have at least one Representative Value.
 
 Adding a Representative Value is described in detail [on this page](ec-r-value-settings.md#adding-a-representative-value).
 
-If there is only a default constructor or one without arguments, then you should still add one. Just go ahead and set it [TODO - how does this actually look in this case?]
+The more Equivalence Classes and Representative Values you add, the more test cases you will end up with. So don't add unnecessary ones so the amount of Input/Output matching does not become unnecessarily large. 
 
-The more Equivalence Classes and Representative Values you add, the more test cases you will end up with. So don't add unnecessary ones so the amount of Input/Verification matching does not become unnecessarily large. [TODO - Daniel, not completely happy with this statement and it may be wrong!!!]
+## Example
+Here is an example of a configured Method Component with multiple Equivalence Classes and Representative Values.
+<img src="ec-simple-static-method.png" alt="configured method compponent" width="700"/>
 
-[TODO - explain how the ECs are related to the TCT once the TCT is working]
+## Training Unit
+There is a [training unit](B-B40-water-state-instance-1.md) that explains the Method Component based on a real code example. It also explain how Method Components are referenced when generating Test Cases.

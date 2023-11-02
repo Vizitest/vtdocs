@@ -3,19 +3,19 @@ Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](pra
 
 You will use Equivalence Classes extensively in the Instance and Method components. This describes how to set them
 
-[TODO - check all screenshots once ready]
-
 **Instance Component**
+This shows an Instance Component with one Equivalence Class. It contains three Representative Values with a complex type being passed via a constructor.
 
 <img src="instance-component-example.png" alt="" width="500"/>
 
 **Method Component**
+This shows a Method Component with valid Equivalence Classes. You will see promitive Representative Values in ```int creditSought``` and complex in **Return Values**.
 
-<img src="method-component.png" alt="" width="500"/>
+<img src="method-component.png" alt="" width="900"/>
 
 ## Adding an Equivalence Class to an Instance
 
-<img src="instance-annotated.png" alt="" width="500"/>
+<img src="instance-annotated.png" alt="" width="700"/>
 
 1. Press the large + icon in the top right of the component.
 2. Toggle between a valid and invalid type by clicking the icon

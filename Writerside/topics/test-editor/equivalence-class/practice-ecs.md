@@ -15,7 +15,7 @@ As a reminder, we have the following requirements.
 - It should throw an exception if the temperature is below absolute zero, ```<273.15```
 
 ## Equivalence Classes and Representative Values
-We have the following Equivalence Classes. We have also included boundary values around the sensitive values of ```-273.15```, ```0``` and ```100```.
+We have the following Equivalence Classes. We have also included boundary values around the sensitive boundary values, for example ```-273.15```, ```0``` and ```100```.
 
 | Equivalence Class Name | Representative Value                          |
 |------------------------|-----------------------------------------------|
@@ -25,41 +25,61 @@ We have the following Equivalence Classes. We have also included boundary values
 | **Invalid**            | ```-300```, ```-273.16```, ```"xxx"```        |
 
 ## Definition in Vizitest
-Having decided on the Equivalence Classes and Representative Values, we can implement these directly in Vizitest. You can read how to [work with the Method component here](method-component.md).
+Having decided on the Equivalence Classes and Representative Values, we can implement these directly in Vizitest. The image below shows the use of Equivalence Classes within a Method Component. You can read how to [work with the Method component here](method-component.md). They are also used in the [Instance Component](instance-component.md).
 
-[TODO - proper image for this method]
+### Configuration without boundary values
+We are just configuring with one valid value in each Equivalence Class. 
 
-![](method-water.png)
+<img src="ecs-no-boundaries.png" alt="ecs no boundaries" width="500"/>
+
+### Configuration with boundary values
+To be more thorough, we've also added the boundary values we showed in the table above.
+
+<img src="ecs-with-boundaries.png" alt="ecs no boundaries" width="500"/>
+
 
 >
 >Note that next to each Equivalence Class there is either a green '✓' symbol or a red 'x' symbol. This has a specific and important purpose. 
 >
->- '✓' indicates that the Equivalence Class contains valid Representative Values
->- 'x' indicates invalid Representative Values.
+>- '✓' indicates that the Equivalence Class contains **valid** Representative Values
+>- 'x' indicates **invalid** Representative Values.
 >
->You will specify this when adding the Equivalence Class in Vizitest. It is then used when the test cases and the test code is generated. You can read more about this in the [Method component](method-component.md).
+>You will specify this when adding the Equivalence Class in Vizitest. It is then used when the test cases and the test code is generated. You can toggle valid/invalid by clicking on the icon.
 
 
 ### Input parameters
-The Equivalence Classes we discussed above can all be seen in the above Vizitest component.
+In the above example, we can see ```static String getWaterState()``` component. This has a single input parameter ```double temperature```.
 
-[TODO - screenshot of just inputs]
+If your method takes multiple parameters, they will appear beneath one another in the Input column.
 
-**Important** : note that the **Invalid** Equivalence Class has a red 'X' icon next to it. We are telling Vizitest that the values contained within this Equivalence Class represent invalid values. This is important for the automatic generation of [test cases](#automatic-test-case-generation).
+<img src="input-parameter.png" alt="input parameter" width="500"/>
 
-### Verification - Expected Values
+
+### Output - Expected Values
 We also use the concept of Equivalence Classes to define possible expected values. For this, there is a set of valid expected values that we will name **Results**. It can contain Representative Values of ```solid```, ```liquid``` and ```gas```.
 
-[TODO - screenshot of just Verification - return]
+<img src="output-return-values.png" alt="return values" width="500"/>
 
 If your method were to return a values or values that indicated an invalid response (```invalid``` for example), then you can choose whether to include this in the ***Results*** or create an invalid Equivalence Class with ```invalid``` as its Representative Value. Unlike the inputs, where it is important, for Verifications it is a visual aid.
 
-### Verification - Exceptions
-Our method is expected to throw an Exception if the temperature input is less than absolute zero (-273.15). This is defined in the Exceptions part of the Method component.
+### Output - Exceptions
+If your method can throw an exception, then you should add the exception as a possible output. Hovering over the title bar will present the **+Exception button**.
 
-[TODO - screenshot of just Verification - Exceptions]
+<img src="output-exception.png" alt="return values" width="500"/>
 
-## Automatic Test Case Generation
+This is explained in [this Simple Static Method training unit](simple-static-method.md).
+
+
+## Test Case Table
+The Test Case Table defines one or more distinct test cases, each of which runs against the Method Components in your test Configuration.
+
+<img src="test-case-table-simple.png" alt="input parameter" width="700"/>
+
+Refer to the [Test Case Table](test-case-table.md) page for full details. 
+
+### Manual
+
+### Automatic
 Generating the [Test Case Table](test-case-table.md) is a key step and one that has the following major advantages.
 [TODO - link to TCT when present]
 

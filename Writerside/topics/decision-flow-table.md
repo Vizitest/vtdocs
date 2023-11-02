@@ -1,7 +1,8 @@
 # Decision Flow Table
 
+## AVAILABLE Q2 2024
+
 ## Overview
-** *Available in Q2 2024* **
 
 Although the screenshot below is only a rough mockup, it should explain the concept well enough.
 
@@ -24,8 +25,8 @@ The idea is that you specify a sequence of rules and conditions with respect to 
 
 ## Disadvantages
 
-- It is not as rigorous as [Equivalence Class Partitioning](theory-ecs.md).
-- Another test type may be better suited to the task (we will be constantly adding more tes types).
+- It is not as rigorous as [Equivalence Class Partitioning](theory-ecs.md) for certain methods.
+- Another test type may be better suited to the task (we will be constantly adding more Tes Types).
 
 ## Your thoughts and ideas
 If you would like to contribute your ideas to this test type, please email support@vizitest.com. We are always happy to jump on Zoom calls to anyone who wants to discuss their ideas with us.

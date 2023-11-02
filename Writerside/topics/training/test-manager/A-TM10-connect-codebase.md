@@ -1,19 +1,17 @@
 
 
 # Connecting to the codebase
-The first thing you want to do is to connect to the training codebase.
 
-Start Vizitest and then head to the **Projects** list in the left sidebar.
+The first thing to do is to add a Project and connect it to the training codebase.
 
-- [Add a new Project](connect-codebase.md) and connect it to the training repo you should already have cloned to your local PC. 
-- Set the Project name to **Training** although it's not the end of the world if you choose a different name.
+In the Vizitest Test Manager (shown when you launch Vizitest), locate the **Projects** list in the top of the left sidebar.
+
+- Add a Project [as explained here](connect-codebase.md). Point the **Path** field to the root folder of the GitHub repository (explained here).
+- Set the Project name to **Training** or similar.
 
 You should now have a new Project in the list and a single Group created on the canvas.
 
-[TODO : show final result]
-
-
-
+<img src="tm-post-create-project.png" alt="newly created project" width="900"/>
 
 
 
