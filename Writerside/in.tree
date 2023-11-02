@@ -53,8 +53,8 @@
             <toc-element topic="method-component.md"/>
             <toc-element topic="test-case-table.md"/>
             <toc-element topic="codegen.md"/>
-            <toc-element topic="side-effects.md"/>
             <toc-element topic="run-test.md"/>
+            <toc-element topic="side-effects.md"/>
             <toc-element topic="custom-assertions.md"/>
             <toc-element topic="mocking.md"/>
         </toc-element>
@@ -78,7 +78,9 @@
                 <toc-element topic="about-ecs.md"/>
                 <toc-element topic="simple-static-method.md"/>
                 <toc-element topic="B-B30-static-method-simple-boundaries.md"/>
-                <toc-element topic="B-B40-water-state-instance.md"/>
+                <toc-element topic="B-B40-water-state-instance-1.md"/>
+                <toc-element topic="B-B40-water-state-instance-2.md"/>
+                <toc-element topic="representative-values-revisited.md"/>
                 <toc-element topic="B-B45-valid-invalid.md"/>
                 <toc-element topic="B-B47-ec-naming.md"/>
                 <toc-element topic="B-B50-complex-args-1.md"/>

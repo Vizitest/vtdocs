@@ -20,9 +20,11 @@ The combination of these gives you the most rigorous testing setup and the most 
 One of our main goals is to provide an environment where tests are
 
 - nicely organized using the Test Manager
+
 <img src="api-test-manager.png" alt="test-manager" width="500"/>
 
 - and visually configured using the Test Editor.
+
 <img src="api-method-component.png" alt="endpoint component" width="500"/>
 
 

@@ -23,12 +23,26 @@ Add and define your own Test Case. This is a good way to control your Test Cases
 
 Press the **+Add Test Case** button to add a new Test Case column, then set the Inputs and Outputs as explained below.
 
-### Automatic (coming very soon)
-Lets Vizitest generate an optimal set of Test Cases for you using a best practice algorithm (Pairwise Combination). You can remove or add Test Case afterwards.
+### Automatic
+**Note : if the button does not work, this feature is coming very soon**
+
+Lets Vizitest generate an optimal set of Test Cases for you using a best practice algorithm (Pairwise Combination). You can remove or add Test Cases afterwards.
 
 This should not be used for methods that [TODO : Daniel???]
 
-Press the **>> Generate Test Cases** button. Inputs will be automatically chosen but you will need to specify the expected Outputs as explained below.
+Press the **>> Generate Test Cases** button. 
+
+<tip>
+<p>
+If you have a lot of Test Cases, you can click and drag within the Test Cases area to scroll  left and right.
+</p>
+</tip>
+
+<warning>
+<p>
+Inputs will be automatically chosen, but you still need to specify the expected Outputs as <a href="test-case-table.md#matching-outputs-to-inputs">explained below</a>.
+</p>
+</warning>
 
 ## Positive and negative test cases
 At the top of each column you will see whether a Test Case is expected to yield a positive or negative outcome.
@@ -43,7 +57,7 @@ This has two purposes
 - It is a very useful visual indicator when you match Verifications (see below).
 - Vizitest uses this in the [Generated Test Code](codegen.md) to control the assertion itself. You do not need to do anything specifically.
 
-## Input parameters
+## Method Inputs
 
 <img src="test-case-table-input.png" alt="test case table input" width="900"/>
 
@@ -56,7 +70,7 @@ If you Test Cases were automatically generated, these will be prefilled.
 You would usually need all Input parameter cells to have values specified to be able to [Generate Test Code](codegen.md).
 
 
-## Matching Outputs to Inputs
+## Matching method Outputs to Inputs
 
 <img src="test-case-table-output.png" alt="test case table output" width="900"/>
 
@@ -65,8 +79,8 @@ The Output for each Test Case will need to be manually matched by you in order t
 This is the case even if you generated Test Case automatically.
 
 
-## Test Case metadata
-You can change the test case title (Positive N to anything else) by clicking the label. You do not need to do this unless you want specific labelling in your test runner output or the test code comments.
+## Test Case name, description and link.
+You can change the test case title from the default format **Test Case N** to anything else by clicking the label and entering new text. You do not need to do this unless you want specific labelling in your test runner output or the test code comments.
 
 <img src="test-case-table-extra.png" alt="test case table extra info" width="900"/>
 

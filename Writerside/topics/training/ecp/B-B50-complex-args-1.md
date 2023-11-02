@@ -15,7 +15,7 @@ They are relevant in Representative Values, whether in an Instance or Method com
 ## Task
 
 ### Add an Instance component
-We will assume you know how to add the Instance component from the [earlier lesson](B-B40-water-state-instance.md).
+We will assume you know how to add the Instance component from the [earlier lesson](B-B40-water-state-instance-1.md).
 
 1. For this example, we need one Representative Value in the **Valid** Equivalence Class. Add the **Valid** Equivalence Class and add the Representative values ```John Brook``` and ```35```.
 2. This value is a complex arg. It's really not difficult.

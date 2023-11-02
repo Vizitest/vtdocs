@@ -1,5 +1,5 @@
 # Create a Test Configuration
-A Test Configuration is where your actual unit and integration tests are found. A Test Configuration lives within a Group on the Tets Manager canvas.
+A Test Configuration is where your actual unit and integration tests are found. A Test Configuration lives within a Group on the Test Manager canvas.
 
 - Choose or create a Group.
 - Create a Test Configuration called **Water State** in the **Unit Tests** Group as [explained here](test-config-add.md).
