@@ -19,10 +19,12 @@ Refer to the [Instance component](instance-component.md) documentation for gener
 1. Search for the ```WaterStateInstance``` class using the large **+** button in the top left of the canvas.
 2. Add it to the canvas.
 3. You will see that it has automatically added a **Valid Values** and an **Invalid Values** Equivalence Class.
+
 <img src="instance-empty.png" alt="empty instance" width="500"/>
 
 4. To the Valid Equivalence Class, add three Representative Values ```-50```, ```50```, ```150```.
 5. To the Invalid Equivalence Class, add one Representative Value ```-300```.
+
 <img src="instance-completed.png" alt="completed instance" width="500"/>
 
 As you entered the values, you will notice that Vizitest has automatically chosen the (only) constructor to instantiate the object. You can find an example of multiple constructors in [this unit](B-B60-complex-args-nested.md).
