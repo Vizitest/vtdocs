@@ -1,5 +1,4 @@
 # Equivalence Class naming
-**Unit : B-B47**
 
 This unit is an informational unit.
 
@@ -7,7 +6,7 @@ If you have not done so, please refer to [Valid and Invalid Equivalence Classes]
 
 When you add a new Equivalence Class, Vizitest will prompt you to choose a validity status with default Equivalence Class names of **Valid values** and **Invalid values** respectively.
 
-<img src="ec-naming.png" alt="naming equivalence class" width="400"/>
+<img src="ec-naming.png" alt="naming equivalence class" width="600"/>
 
 ## Renaming
 To make their meaning clearer, you can rename the default Equivalence Class names once added to the component by clicking in the Equivalence Class name.
