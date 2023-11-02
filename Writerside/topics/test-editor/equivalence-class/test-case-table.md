@@ -40,7 +40,7 @@ If you have a lot of Test Cases, you can click and drag within the Test Cases ar
 
 <warning>
 <p>
-Inputs will be automatically chosen, but you still need to specify the expected Outputs as <a href="test-case-table.md#matching-outputs-to-inputs">explained below</a>.
+Inputs will be automatically chosen, but you still need to specify the expected Outputs as <a href="test-case-table.md">explained below</a>.
 </p>
 </warning>
 

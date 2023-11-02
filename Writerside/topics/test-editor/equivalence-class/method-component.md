@@ -33,6 +33,7 @@ At the time of writing, you may not see Custom Assertions and Side Effects. Thes
 </warning>
 
 The Method component has several sections, divided into **Input** and **Output** columns.
+
 <img src="empty-method-component.png" alt="empty method compponent" width="700"/>
 
 ## Input column
@@ -60,6 +61,7 @@ The more Equivalence Classes and Representative Values you add, the more test ca
 
 ## Example
 Here is an example of a configured Method Component with multiple Equivalence Classes and Representative Values.
+
 <img src="ec-simple-static-method.png" alt="configured method compponent" width="700"/>
 
 ## Training Unit

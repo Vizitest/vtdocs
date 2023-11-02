@@ -8,9 +8,11 @@ Groups are the main containers you will find on the canvas. Within a Group is a 
 There are two ways to add a Group.
 
 - **Add subgroup** button : If you hover over a Group, you will see a button appear **Add a subgroup**. If you press, this, a new group is created and connected.
+
 <img src="connecting-groups.png" alt="connecting groups" width="300"/>
 
 - **Add an orphaned Group** : press the large, blue **+** button in the top left of the canvas.
+
 <img src="test-manager.png" alt="add group" width="600"/>
 
 ## Connecting Groups

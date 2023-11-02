@@ -22,6 +22,7 @@ We now want to instantiate the **Instance Component** with some Representative V
 
 1. To the **Valid Values** Equivalence Class, add three Representative Values ```-50```, ```50```, ```150```.
 2. To the **Invalid Values** Equivalence Class, add one Representative Value ```-300```.
+
 <img src="instance-completed.png" alt="empty instance" width="500"/>
 
 ### Method Component

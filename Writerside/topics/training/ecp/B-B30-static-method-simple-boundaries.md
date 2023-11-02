@@ -39,7 +39,7 @@ Your Method component should look like this.
 [TODO - screenshot]
 
 ### Generate Test Cases and Test Code
-1. Generate the test cases from the [Test Case Table](test-case-table.md#automatic) and set the Outputs as [explained here](test-case-table.md#matching-outputs-to-inputs).
+1. Generate the test cases from the [Test Case Table](test-case-table.md#automatic) and set the Outputs as [explained here](test-case-table.md#matching-method-outputs-to-inputs).
 2. [Generate the test code](codegen.md).
 3. [Run the test](run-test.md). **You should see that the test case fails due to one of the test cases failing**.
 
