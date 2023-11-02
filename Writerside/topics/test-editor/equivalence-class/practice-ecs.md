@@ -67,7 +67,7 @@ If your method can throw an exception, then you should add the exception as a po
 
 <img src="output-exception.png" alt="return values" width="500"/>
 
-This is explained in [this Simple Static Method training module](simple-static-method.md).
+This is explained in [this Simple Static Method training unit](simple-static-method.md).
 
 
 ## Test Case Table
