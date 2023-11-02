@@ -13,6 +13,11 @@ The Test Case Table defines one or more distinct test cases, each of which runs 
 - The first Test Case, **Ice**, uses the value ```-10.0``` and is expected to output the string value ```ice```.
 - The third test Case, **Invalid**, use the input value ```-300.0``` and is expected to return the string value ```invalid temperature```.
 
+## Lots of Test Cases
+If you have a lot of Test Cases, you can click and drag within the Test Cases area to scroll  left and right.
+
+<img src="test-case-table-drag.png" alt="dragging test cases area" width="900"/>
+
 ## Creating Test Cases
 There are two ways of creating Test Cases.
 
@@ -30,13 +35,7 @@ Lets Vizitest generate an optimal set of Test Cases for you using a best practic
 
 This should not be used for methods that [TODO : Daniel???]
 
-Press the **>> Generate Test Cases** button. 
-
-<tip>
-<p>
-If you have a lot of Test Cases, you can click and drag within the Test Cases area to scroll  left and right.
-</p>
-</tip>
+Press the **>> Generate Test Cases** button.
 
 <warning>
 <p>
