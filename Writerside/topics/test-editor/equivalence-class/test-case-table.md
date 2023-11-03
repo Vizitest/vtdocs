@@ -29,8 +29,6 @@ Add and define your own Test Case. This is a good way to control your Test Cases
 Press the **+Add Test Case** button to add a new Test Case column, then set the Inputs and Outputs as explained below.
 
 ### Automatic
-**Note : if the button does not work, this feature is coming very soon**
-
 Lets Vizitest generate an optimal set of Test Cases for you using a best practice algorithm (Pairwise Combination). You can remove or add Test Cases afterwards.
 
 This should not be used for methods that [TODO : Daniel???]

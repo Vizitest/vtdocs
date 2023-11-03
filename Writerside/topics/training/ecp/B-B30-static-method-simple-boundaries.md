@@ -9,7 +9,7 @@
 - Open the Test Configuration.
 
 ## Introduction
-Boundary Values Analysis is an important concept in testing. This is explained in [Boundary Value Analysis](theory-ecs.md#boundary-value-analysis).
+Boundary Values Analysis is an important testing concept. We explain it in [Boundary Value Analysis](theory-ecs.md#boundary-value-analysis).
 
 ## Task
 
@@ -26,7 +26,7 @@ The reasons for choosing these values is explained in [Boundary Value Analysis](
 | **Invalid**            | ```-300```, **```-273.16```**        |
 
 1. Add the boundary values to the respective Equivalence Class's Representative Values by [adding new Representative values](ec-r-value-settings.md#adding-a-representative-value). 
-2. Our method throws an ```Exception``` if an invalid temperature is provided. We need to define this in the Output -> Exceptions section. Hover over the Exception header bar and press **+ Exception**.
+2. Our method throws an ```Exception``` if an invalid temperature is provided. We need to define this in the Output -> Exceptions section. Hover over the Exception header bar and press **+ Exception**. It should default to the general ```Exception```, which is correct.
  
 <warning>
 <p>
@@ -36,19 +36,26 @@ For the eagle eyed : we have made a deliberate error in the code. This will caus
 
 Your Method component should look like this.
 
-[TODO - screenshot]
+<img src="training-boundary.png" alt="method component with boundary values" width="900"/>
+
 
 ### Generate Test Cases and Test Code
-1. Generate the test cases from the [Test Case Table](test-case-table.md#automatic) and set the Outputs as [explained here](test-case-table.md#matching-method-outputs-to-inputs).
-2. [Generate the test code](codegen.md).
-3. [Run the test](run-test.md). **You should see that the test case fails due to one of the test cases failing**.
+1. Press the Generate Test Cases button. This is what you should see (although this shows the Output values set, which they won't be for you).
 
-[TODO : screenshot]
+<img src="training-boundary-tct.png" alt="test case table" width="900"/>
+
+2. **Note**: this generates quite a lot of Test Cases, so click and drag within the Test Cases area to scroll across.
+3. Set the Output values to suit the auto-generated Input temperature.
+4. [Generate the test code](codegen.md) then open it in your IDE.
+5. [Run the test](run-test.md). **You should see that the Test Case fails due to one of the Test Cases failing**.
+
+<img src="training-boundary-test-fail.png" alt="test case run failure" width="900"/>
+
 
 ### Correct the error
 This error nicely illustrates one of the major benefits of [Black Box Testing](black-box-testing.md). 
 
-We detected an issues without having needed to look at the ````getWaterState(double temperature)``` code implementation as we defined our test based solely on the [requirements](simple-static-method.md#requirements).
+We detected an issues without having needed to look at the ```getWaterState()``` code implementation as we defined our test based solely on the [requirements](simple-static-method.md#requirements).
 
 We would now inform the developer that there is an issue with the code. The developer would see that the following code snippet ...
 

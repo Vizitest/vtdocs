@@ -9,7 +9,7 @@ It is important to understand the relevance of **valid** and **invalid** Equival
 
 <img src="invalid-valid-values.png" alt="valid and invalid values" width="900"/>
 
-## Instances, Input and Verification Equivalence Classes
+## Instances, Input and Output Equivalence Classes
 
 ### Instance and Method Inputs
 As mentioned above, you need to ensure that the validity status of an Equivalence Class is correctly set.
