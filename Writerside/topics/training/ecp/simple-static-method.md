@@ -94,4 +94,6 @@ Your Test Case table should look approximately like this, depending on how many 
 
 ### Test Code
 1. [Generate the test code](codegen.md) by pressing the **Generate Code** button. Make sure the test framework to the left of the button is set first.
-2. [Run the test](run-test.md). The test runner should show your test passing. If it fails, then you should check your configuration and Input/Output values in the Test Cases. 
+2. [Run the test](run-test.md). Open the newly generated test code file in your IDE. The Path was indicated when you pressed the **Generate Code** button.
+3. Run the test in your IDE.
+4. The test runner should show your test passing. If it fails, then you should check your configuration and Input/Output values in the Test Cases. 

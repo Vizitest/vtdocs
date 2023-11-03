@@ -11,7 +11,7 @@ When you add a new Equivalence Class, Vizitest will prompt you to choose a valid
 ## Renaming
 To make their meaning clearer, you can rename the default Equivalence Class names once added to the component by clicking in the Equivalence Class name.
 
-## Where do Equivalence Class names appear?
+## Where else do Equivalence Class names appear?
 Equivalence names are not only used in canvas components but also in your test code and test runner output.
 
-So, choosing your Equivalence Class names with thought will help users understand and diagnose better well into the future.
+So, choosing your Equivalence Class names with thought will help users better understand and diagnose test results.

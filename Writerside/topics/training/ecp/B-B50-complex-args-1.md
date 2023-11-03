@@ -21,6 +21,7 @@ We will assume you know how to add the Instance component from the [earlier less
 2. This value is a complex arg. It's really not difficult.
 
 [TODO : check the constructor process and how it's described above and documented below]
+
 [TODO : what happens with the output when dob is null, which it is using the simpler constructor]
 
 ### Add a Method component
@@ -30,7 +31,7 @@ As ```getSummary()``` expects no parameters, we don't need to worry about the In
 
 Only the following needs to be configured
    1. Input - nothing required as there are no parameters
-   2. Verification -> Expected Values - here we need to check the expected value returned from the method, which should be ```John Brook is 35 years old```, so add this as the value.
+   2. Output -> Return Values - here we need to check the expected value returned from the method, which should be ```John Brook is 35 years old```, so add this as the value.
 
 ### Configure the Expected Values 
 We need to handle the Expected Value. 
@@ -45,7 +46,7 @@ That's it. Your configuration should now look like this.
 
 ### Generate and run test
 1. Generate the test cases.
-2. Set the Verifications.
+2. Set the Outputs.
 3. Generate the test code .
 4. Run the test in your IDE.
 

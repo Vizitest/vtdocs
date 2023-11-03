@@ -80,12 +80,14 @@
                 <toc-element topic="B-B30-static-method-simple-boundaries.md"/>
                 <toc-element topic="B-B40-water-state-instance-1.md"/>
                 <toc-element topic="B-B40-water-state-instance-2.md"/>
-                <toc-element topic="representative-values-editor.md"/>
-                <toc-element topic="B-B45-valid-invalid.md"/>
+                <toc-element topic="multiple-instances.md"/>
+                <toc-element topic="multiple-test-configurations-involving-the-same-class.md"/>
                 <toc-element topic="B-B47-ec-naming.md"/>
+                <toc-element topic="B-B45-valid-invalid.md"/>
                 <toc-element topic="B-B50-complex-args-1.md"/>
                 <toc-element topic="B-B60-complex-args-nested.md"/>
                 <toc-element topic="arrays-lists-enums.md"/>
+                <toc-element topic="representative-values-editor.md"/>
                 <toc-element topic="generics.md"/>
             </toc-element>
             <toc-element topic="C-I01-advanced.md">
