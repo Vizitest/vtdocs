@@ -1,27 +1,28 @@
 # Test Doubles - Mocking and Stubbing
-**Unit C-I10** / **Repo folder : C_I10_Mocking** 
+**Repo folder** : [src/main/java/C_I10_Mocking](github-repo.md)
 
-This unit assumes that you have an understanding of these concepts.
+This unit assumes that you already familiar with stubbing, mocking and spies.
 
-We will only deal with stubbing, the most widely used technique within what is often and misleadingly referred to as Mocking.
+We will only deal with **Stubbing**, the most widely used technique within what is often and slightly misleadingly referred to as **Mocking**.
 
-## Status in Beta
-During the Beta stage, mocking is done using a Vizitest **User Method**. 
+Once you understand this example, implementing mocking (as opposed to stubbing) should be obvious.
 
-While this works well, we have grander plans for mocking support and Vizitest will support it through the User Interface directly without the need to write any code at all for most common cases.
 
 ## Prep
-- Find and open the training code C_I10_TestDoubles you [cloned from GitHub](github-repo.md).
+- Find and open the training code.
 - In the Test Manager, add a new Test Configuration called **Mocking and Stubbing**. 
 - Open the new Test Configuration.
 
 ## Introduction
-If a method has an external dependency, then in order for it to be a true unit test, that dependency will need to be mocked/stubbed.
+You might want to read the [Mocking and Stubbing page in the User Guide](mocking.md).
 
-Please first read the [Mocking and Stubbing page in the User Guide](mocking.md).
+If a method has an external dependency, then in order for it to be a true unit test, that dependency will need to be mocked or stubbed.
+
 
 ## Example
 Take a look at the following code that implements a method ```addUser()``` in a service for adding a user to a database.
+
+You can find this code in ```src/main/java/C_I10_Mocking/service```.
 
 ```
 public class UserService implements IUserService {
@@ -87,10 +88,10 @@ Let's set up the method parameters' Equivalence Classes.
 If you wanted to be thorough, you could also add [Boundary Values](B-B30-static-method-simple-boundaries.md) for these, but we haven't to keep things simple.
 
 
-### Verifications
-We should now set up the Expected Values and Exceptions.
+### Output
+We should now set up the Return Values and Exceptions.
 
-#### Expected Values
+#### Return Values
 The good news for us here is that ```addUser()``` is void, so we don't have to worry about these at all. It either works or it throws an exception, so let's handle that.
 
 #### Exceptions
@@ -104,7 +105,7 @@ You can now generate the test cases, then the test code and finally run the test
 This test will fail as we haven't yet written the mocking code.
 
 ### Write the mocking code
-If you open the generated test, you will find the following auto-generated method.
+If you open the generated test code, you will find the following auto-generated method.
 
 ```java
 //region Factories

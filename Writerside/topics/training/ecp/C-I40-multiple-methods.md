@@ -1,5 +1,13 @@
 # Multiple Methods
-**Unit C-I40** / **Repo folder : C_I40_MultipleMethods** 
+**Repo folder** : [src/main/java/C_I40_MultipleMethods](github-repo.md)
+
+<warning>
+<p>
+<strong>
+Multiple Methods currently has bugs and will be fixed shortly. Feel free to read but do not expect it to work while this warning remains.
+</strong>
+</p>
+</warning>
 
 So far, we have only used a single method in a Test Configuration.
 

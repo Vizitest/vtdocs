@@ -27,7 +27,7 @@ Refer to the [Instance component](instance-component.md) documentation for gener
 
 <img src="instance-completed.png" alt="completed instance" width="500"/>
 
-As you entered the values, you will notice that Vizitest has automatically chosen the (only) constructor to instantiate the object. You can find an example choosing from more than one available constructor in [this unit](B-B60-complex-args-nested.md).
+As you entered the values, you will notice that Vizitest has automatically chosen the (only) constructor to instantiate the object. You can find an example choosing from more than one available constructor in [this unit](B-B60-multiple-constructors.md).
 
 <img src="instance-rvalue-selected.png" alt="empty istance" width="500"/>
 
