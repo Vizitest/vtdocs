@@ -50,4 +50,14 @@
         <description>Created after removal of "Updating Vizitest" from Vizitest Documentation</description>
         <accepts>updating.html</accepts>
     </rule>
+    <rule id="1784a8dc">
+        <description>Created after removal of "Representative Values Editor" from Vizitest Documentation</description>
+        <accepts>representative-values-editor.html</accepts>
+    </rule>
+    <rule id="4538f2a1">
+        <description>Created after removal of "Adding More Equivalence Classes and Representative Values" from Vizitest
+            Documentation
+        </description>
+        <accepts>C-I60-effect-of-more-r-values.html</accepts>
+    </rule>
 </rules>

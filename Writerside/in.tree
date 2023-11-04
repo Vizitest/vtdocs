@@ -7,6 +7,7 @@
 
     <toc-element topic="introduction.topic"/>
     <toc-element topic="nutshell.md"/>
+    <toc-element topic="beta-status.md"/>
     <toc-element topic="contact.md"/>
     <toc-element topic="Problems-we-solve.md">
         <toc-element topic="code-coverage.md"/>
@@ -84,10 +85,9 @@
                 <toc-element topic="multiple-test-configurations-involving-the-same-class.md"/>
                 <toc-element topic="B-B47-ec-naming.md"/>
                 <toc-element topic="B-B45-valid-invalid.md"/>
-                <toc-element topic="B-B50-complex-args-1.md"/>
-                <toc-element topic="B-B60-complex-args-nested.md"/>
+                <toc-element topic="B-B50-complex-rvalues.md"/>
+                <toc-element topic="B-B60-multiple-constructors.md"/>
                 <toc-element topic="arrays-lists-enums.md"/>
-                <toc-element topic="representative-values-editor.md"/>
                 <toc-element topic="generics.md"/>
             </toc-element>
             <toc-element topic="C-I01-advanced.md">
@@ -96,7 +96,6 @@
                 <toc-element topic="C-I30-scenarios.md"/>
                 <toc-element topic="C-I40-multiple-methods.md"/>
                 <toc-element topic="C-I50-chained-methods.md"/>
-                <toc-element topic="C-I60-effect-of-more-r-values.md"/>
                 <toc-element topic="C-I70-side-effects.md"/>
                 <toc-element topic="C-I80-custom-assertions.md"/>
             </toc-element>

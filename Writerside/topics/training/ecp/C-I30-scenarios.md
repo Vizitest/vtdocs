@@ -1,2 +1,9 @@
 # Scenarios
-As soon as the Scenarios feature is released.
+
+<warning>
+<p>
+<strong>
+We will be releasing Scenarios in early December.
+</strong>
+</p>
+</warning>

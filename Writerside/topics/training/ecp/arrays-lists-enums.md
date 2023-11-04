@@ -1,5 +1,13 @@
 # Arrays, Lists and Enums
-**Unit B-B70** / **Repo folder : B_B70_ArrayListEnum** 
+**Repo folder** : [src/main/java/B_B70_ArrayListEnum](github-repo.md)
+
+<warning>
+<p>
+<strong>
+This unit is under construction.
+</strong>
+</p>
+</warning>
 
 ## Prep
 - Find and open the training code **B_B70_ArrayListEnum** you [cloned from GitHub](github-repo.md).
@@ -14,4 +22,4 @@ This is a simple task. The ```setValues()``` method just takes three parameters 
 2. Create an Equivalence Class with a single Representative Value.
 3. For each parameter, set some data to pass in for each of the types.
 
-[TODO - need to see this in action and check above]
+[TODO - complete screenshot and check above]

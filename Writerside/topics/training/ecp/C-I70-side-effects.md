@@ -1,7 +1,13 @@
 # Side Effects
-**Unit C-I70** / **Repo folder : C_I70_SideEffects** 
+**Repo folder** : [src/main/java/C_I70_SideEffects](github-repo.md)
 
-[TODO - WHOLE REVIEW ONCE AVAILABLE]
+<warning>
+<p>
+<strong>
+Side Effects will be released shortly. Feel free to read but it will not work while this warning remains.
+</strong>
+</p>
+</warning>
 
 ## Prep
 - Find and open the training code C_I70_SideEffects you [cloned from GitHub](github-repo.md).

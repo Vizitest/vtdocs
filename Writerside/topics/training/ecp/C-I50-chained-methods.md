@@ -1,5 +1,13 @@
 # Chained Methods
-**Unit C-I50** / **Repo folder : C_I40_MultipleMethods** 
+**Repo folder** : [src/main/java/C_I40_MultipleMethods](github-repo.md)
+
+<warning>
+<p>
+<strong>
+Chained Methods currently has bugs and will be fixed shortly. Feel free to read but do not expect it to work while this warning remains.
+</strong>
+</p>
+</warning>
 
 Two methods are chained if the output of Method A is used as an input to Method B.
 
