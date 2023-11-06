@@ -10,7 +10,7 @@ You can then start the Vizitest [Test Manager](test-manager-intro.md) in either 
 
 - Select the IntelliJ **Vizitest** or **{}** (OS dependent) menu item. You can then choose
 
-<img src="intellij-menu.png" alt="connecting groups" width="400"/>
+<img src="intellij-menu.png" alt="connecting groups" width="500"/>
   - Select **Open in Browser** (recommended).
   - or **Open In IDE** (less space)
 
