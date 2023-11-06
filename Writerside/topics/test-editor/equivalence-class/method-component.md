@@ -2,7 +2,13 @@
 
 Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](practice-ecs.md) pages if you are not yet familiar with Equivalence Classes.
 
-<a href="https://youtu.be/jf9hLsKE7U4?t=57"><img src="video-still.png" alt="overview video" width="400"/></a>
+<tip>
+<p>Quick Overview Video</p>
+<a href="https://youtu.be/jf9hLsKE7U4?t=57">
+    <img src="video-still.png" alt="overview video" width="400"/>
+</a>
+</tip>
+
 
 
 <tip>

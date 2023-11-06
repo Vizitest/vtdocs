@@ -1,6 +1,10 @@
 # The Test Case Table
 
+<tip>
+<p>Quick Overview Video</p>
 <a href="https://youtu.be/jf9hLsKE7U4?t=128"><img src="video-still.png" alt="overview video" width="400"/></a>
+</tip>
+
 
 The Test Case Table defines one or more distinct test cases, each of which runs against the Method Components in your test Configuration.
 
