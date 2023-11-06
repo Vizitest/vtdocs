@@ -22,4 +22,10 @@ This is a simple task. The ```setValues()``` method just takes three parameters 
 2. Create an Equivalence Class with a single Representative Value.
 3. For each parameter, set some data to pass in for each of the types.
 
+<warning>
+<p>
+<span style="color:white">TODO</span>Screenshot coming
+</p>
+</warning>
+
 [TODO - complete screenshot and check above]

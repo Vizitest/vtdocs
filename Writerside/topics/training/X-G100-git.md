@@ -14,6 +14,4 @@ Test configurations are JSON files. This means that in theory, they can be resol
 
 In this situation, the most pragmatic solution will often be to just accept one version or the other. 
 
-### Naming of a Test Configuration in a Group
-[TODO - Daniel, not sure exactly what but you mentioned a situation where this could happen]
 
