@@ -3,7 +3,6 @@
 
 >*"The developer who wrote the test left the company and now I'm spending a lot of time deciphering the test code."*
 
-[TODO : image showing canvas vs. test code]
 
 ## The Problem
 Hand coded tests, even written with care and attention, might make sense while they're fresh in one's mind. But look at it in 6 months and it's suddenly mysterious and take an age to decipher. This problem is compounded when read by someone other than the person who write the test.

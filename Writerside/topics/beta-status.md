@@ -2,10 +2,10 @@
 
 We launched the first Beta version on November 6th, 2023.
 
-We are working hard on fixing bugs and adding planned features. Our goal is to have a first full release in December 2023.
+We are working hard on fixing bugs and adding planned features ready for a first full release.
 
 ## Features arriving within Beta.
-The following is a summary of what we plan to add during the Beta phase and it the following order.
+The following is a summary of what we plan to add during the Beta phase and roughly in what order.
 
 - Many small **UI and usability tweaks**. Ongoing.
 - **Custom Assertions** : write your own code to handle a test assertion.
