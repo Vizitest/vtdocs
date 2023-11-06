@@ -1,5 +1,11 @@
 # The Test Case Table
 
+<tip>
+<p>Quick Overview Video</p>
+<a href="https://youtu.be/jf9hLsKE7U4?t=128"><img src="video-still.png" alt="overview video" width="400"/></a>
+</tip>
+
+
 The Test Case Table defines one or more distinct test cases, each of which runs against the Method Components in your test Configuration.
 
 <tip>
@@ -23,12 +29,12 @@ There are two ways of creating Test Cases.
 
 <img src="test-case-table-add-buttons.png" alt="test case table adding test cases" width="900"/>
 
-### Manual
+### Manually
 Add and define your own Test Case. This is a good way to control your Test Cases but requires you to build up a good and complete of Test Cases.
 
 Press the **+Add Test Case** button to add a new Test Case column, then set the Inputs and Outputs as explained below.
 
-### Automatic
+### Automatically
 Lets Vizitest generate an optimal set of Test Cases for you using a best practice algorithm (Pairwise Combination). You can remove or add Test Cases afterwards.
 
 This should not be used for methods that [TODO : Daniel???]

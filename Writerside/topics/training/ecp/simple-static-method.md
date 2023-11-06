@@ -77,11 +77,11 @@ Your configured Method Component should now look like this.
 <img src="simple-static-method.png" alt="method configured" width="900"/>
 
 ### Generate Test Cases
-1. [Add a manual Test Case](test-case-table.md#manual)  
+1. [Add a manual Test Case](test-case-table.md#manually)  
   - set the Input to any valid Representative Value by clicking in the cell.
   - Click in the Output cell and select the Representative Value that you expect to be returned for the Input you specified.
   - You should see the Test Case labelled as **Test Case** in green. 
-2. [Add another manual Test Case](test-case-table.md#manual)
+2. [Add another manual Test Case](test-case-table.md#manually)
    - set the Input to the **Invalid Value** ```-300.0``` by clicking in the cell.
    - Click in the Output cell and select **Exception** (which will be thrown for an invalid temperature value).
    - You should see the Test Case labelled as **Test Case 1** in red.

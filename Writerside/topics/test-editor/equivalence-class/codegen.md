@@ -1,6 +1,11 @@
 # Generating test code
-Once you've completed the [Test Case Table](test-case-table.md), you're ready to generate the actual test code.
 
+<tip>
+<p>Quick Overview Video</p>
+<a href="https://youtu.be/jf9hLsKE7U4?t=191"><img src="video-still.png" alt="overview video" width="400"/></a>
+</tip>
+
+Once you've completed the [Test Case Table](test-case-table.md), you're ready to generate the actual test code.
 
 <img src="test-case-table-generate-code.png" alt="generate test code" width="900"/>
 

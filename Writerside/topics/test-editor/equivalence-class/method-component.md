@@ -3,6 +3,15 @@
 Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](practice-ecs.md) pages if you are not yet familiar with Equivalence Classes.
 
 <tip>
+<p>Quick Overview Video</p>
+<a href="https://youtu.be/jf9hLsKE7U4?t=57">
+    <img src="video-still.png" alt="overview video" width="400"/>
+</a>
+</tip>
+
+
+
+<tip>
     <p>
         It will help if you have read <a href="ec-r-value-settings.md">Setting Equivalence Classes and Representative</a> Values
     </p>
@@ -22,19 +31,17 @@ When you want to test a method, you use the Method component. To add a new one t
 - Enter the name of the method you want to add (you can filter using the dropdown).
 - Press the + icon to add to the canvas.
 
-You should now see a new component on the canvas.
+You should now see a new component on the canvas. The image below shows one, which has already been configured.
 
-<img src="method-component.png" alt="method component"/>
+<img src="ec-method-empty.png" alt="method component"/>
 
 <warning>
 <p>
-At the time of writing, you may not see Custom Assertions and Side Effects. These are coming shortly.
+At the time of writing, you Custom Assertions and Side Effects are not implemented. These are coming very shortly.
 </p>
 </warning>
 
 The Method component has several sections, divided into **Input** and **Output** columns.
-
-<img src="empty-method-component.png" alt="empty method compponent" width="700"/>
 
 ## Input column
 The Input column will contain several sections, one for each method parameter. You should create at least one Equivalence Class for each parameter with at least one Representative Value in each Equivalence Class.
@@ -42,10 +49,16 @@ The Input column will contain several sections, one for each method parameter. Y
 ## Output column
 This is where you define possible/expected outputs from the method. These are divided into the following sections.
 
-- **Expected Values** - one or more Equivalence Classes (usually just one) with one Representative Value for each expected value you want to test against.
-- **Exceptions** - if your method throws Exceptions, you will want to specify the Exception type. For each different Exception type you expect, add a new row by hovering on the Exception section header and pressing the + icon. You select the Exception type from the dropdown. If you select **Exception**, then it will handle all Exceptions including custom exceptions.
-- **Custom Assertions** - If you want to write your own code to handle the assertion. For a detailed explanation on how to define and code the Custom Assertion, [click here](custom-assertions.md).
-- **Side Effects** - if your method a) doesn't return a value that you can test against and b) mutates the object properties such then you can use Side Effects to test against the state of the object after the method has executed. Please refer to the [Side Effects page](side-effects.md) for a more detailed explanation.
+### Expected Values
+Equivalence Classes and Representative Values for the expected values that are returned by the method.
+
+### Exceptions
+If your method throws Exceptions, you will want to specify the Exception type. For each different Exception type you expect, add a new row by hovering on the Exception section header and pressing the + icon. You select the Exception type from the dropdown. If you select **Exception**, then it will handle all Exceptions including custom exceptions.
+### Custom Assertions
+If you want to write your own code to handle the assertion. For a detailed explanation on how to define and code the Custom Assertion, [click here](custom-assertions.md).
+
+### Side Effects
+If your method a) doesn't return a value that you can test against and b) mutates the object properties such then you can use Side Effects to test against the state of the object after the method has executed. Please refer to the [Side Effects page](side-effects.md) for a more detailed explanation.
 
 ## 2. Add Equivalence Class(es)
 You will typically have at least one Equivalence Class for each Input and Output. Vizitest creates Valid Values and Invalid Values for you by default.
@@ -57,12 +70,9 @@ Each Equivalence Class will usually have at least one Representative Value.
 
 Adding a Representative Value is described in detail [on this page](ec-r-value-settings.md#adding-a-representative-value).
 
-The more Equivalence Classes and Representative Values you add, the more test cases you will end up with. So don't add unnecessary ones so the amount of Input/Output matching does not become unnecessarily large. 
+The more Equivalence Classes and Representative Values you add, the more test cases you will end up with. So don't add unnecessary ones so the amount of Input/Output matching does not become unnecessarily large.
 
-## Example
-Here is an example of a configured Method Component with multiple Equivalence Classes and Representative Values.
-
-<img src="ec-simple-static-method.png" alt="configured method compponent" width="700"/>
+The method shown here is covered in a [training unit](simple-static-method.md).
 
 ## Training Unit
-There is a [training unit](B-B40-water-state-instance-1.md) that explains the Method Component based on a real code example. It also explain how Method Components are referenced when generating Test Cases.
+There is a [training unit](simple-static-method.md) that explains the Method Component based on a real code example. It also explain how Method Components are referenced when generating Test Cases.
