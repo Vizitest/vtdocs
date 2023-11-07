@@ -39,7 +39,7 @@
             <toc-element topic="test-config-edit.md"/>
             <toc-element topic="other-test-config-actions.md"/>
             <toc-element topic="all-canvas-actions.md"/>
-            <toc-element topic="git.md"/>
+            <toc-element topic="storage-git.md"/>
         </toc-element>
         <toc-element topic="test-editor.md">
             <toc-element topic="nav-test-manager.md"/>

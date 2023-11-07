@@ -2,7 +2,7 @@
 
 <tip>
 <p>Quick Overview Video</p>
-<a href="https://youtu.be/jf9hLsKE7U4?t=191"><img src="video-still.png" alt="overview video" width="400"/></a>
+<a href="https://youtu.be/klIt9VhxsNA?t=191"><img src="video-still.png" alt="overview video" width="400"/></a>
 </tip>
 
 Once you've completed the [Test Case Table](test-case-table.md), you're ready to generate the actual test code.
