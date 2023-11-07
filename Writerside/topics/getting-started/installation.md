@@ -11,11 +11,9 @@ Currently, it requires IntelliJ Community or Ultimate, Version 2022.3 or later. 
 
 ## Register and Install
 1. First, you will need to [register for Vizitest](https://vizitest.com/trial-signup-form).
-2. Next, install the IntelliJ plugin. We've just submitted the plugin to Jetbrains. Until it has been approved, please [download and install the plugin here](https://mrm.automated-software-testing.com/releases/com/ast/vizitest/plugins/intellij/Vizitest-0.1.2.zip). Then install it from Setting -> Plugins
+2. Next, [install the IntelliJ plugin from the Marketplace](https://plugins.jetbrains.com/plugin/22716-vizitest). We've just submitted the plugin to Jetbrains.  
 
-<img src="intellij-manual-install.png" alt="jetbrains marketplace" width="700"/>
-
-Once approved, it will be available in the [IntelliJ Marketplace](https://plugins.jetbrains.com/plugin/22716-vizitest).
+You can also [download and install the plugin here](https://mrm.automated-software-testing.com/releases/com/ast/vizitest/plugins/intellij/Vizitest-0.1.2.zip). Then install it from Setting -> Plugins
 
 ## Plugin Startup
 Once the plugin has been installed, each time you start IntelliJ, the plugin will automatically start. You will see some notifications as Vizitest starts in the background.
