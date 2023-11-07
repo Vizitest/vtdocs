@@ -2,7 +2,7 @@
 
 <tip>
 <p>Quick Overview Video</p>
-<a href="https://youtu.be/jf9hLsKE7U4?t=128"><img src="video-still.png" alt="overview video" width="400"/></a>
+<a href="https://youtu.be/klIt9VhxsNA?t=128"><img src="video-still.png" alt="overview video" width="400"/></a>
 </tip>
 
 

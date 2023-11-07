@@ -4,7 +4,7 @@ Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](pra
 
 <tip>
 <p>Quick Overview Video</p>
-<a href="https://youtu.be/jf9hLsKE7U4?t=57">
+<a href="https://youtu.be/klIt9VhxsNA?t=57">
     <img src="video-still.png" alt="overview video" width="400"/>
 </a>
 </tip>
