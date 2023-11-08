@@ -9,8 +9,6 @@ Please refer to the Equivalence Class [Theory](theory-ecs.md) and [Practice](pra
 </a>
 </tip>
 
-
-
 <tip>
     <p>
         It will help if you have read <a href="ec-r-value-settings.md">Setting Equivalence Classes and Representative</a> Values

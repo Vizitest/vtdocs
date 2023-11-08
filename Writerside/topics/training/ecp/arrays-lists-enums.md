@@ -1,31 +1,31 @@
 # Arrays, Lists and Enums
 **Repo folder** : [src/main/java/B_B70_ArrayListEnum](github-repo.md)
 
-<warning>
-<p>
-<strong>
-This unit is under construction.
-</strong>
-</p>
-</warning>
+## Introduction
+Arrays, Lists and Enums behave slightly differently in the [Representative Value editor](ec-r-value-settings.md#arrays-lists-and-enums).
+
+<img src="training-array-int-enum.png" alt="arrays lists and enums"/>
 
 ## Prep
-- Find and open the training code **B_B70_ArrayListEnum** you [cloned from GitHub](github-repo.md).
-- Examine the code to see what it's doing.
+- Find and open the training code.
+- Take a look at the code to examine its behavior.
 - In the Test Manager, [create a new Test Configuration](test-config-add.md) called **Array, List, Enum**. 
 - Open the new Test Configuration.
 
 ## Task
-This is a simple task. The ```setValues()``` method just takes three parameters - an Array, a List and an Enum. It doesn't do anything other than return as we just want to demonstrate how to set these values.
-
-1. Create a Method component to test the ```setValues()``` method.
-2. Create an Equivalence Class with a single Representative Value.
-3. For each parameter, set some data to pass in for each of the types.
+The ```setValues()``` method just takes three parameters - an Array, a List and a String (this will be replaced with an Enum parameter shortly).
 
 <warning>
 <p>
-<span style="color:white">TODO</span>Screenshot coming
+<span style="color:white">TODO</span>
 </p>
+<p>We are currently fixing a bug with the Test Cases for arrays and lists. The Test Case does not show the Representative Values. Expect a fix shortly.</p>
 </warning>
 
-[TODO - complete screenshot and check above]
+1. Create a Method component to test the ```setValues()``` method. See the screenshot above and configure similarly.
+2. Be sure to set the Exception Output.
+3. Generate the Test Cases automatically and set the expected Outputs.
+4. Go ahead and generate the test code and run the test.
+
+
+

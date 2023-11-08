@@ -9,5 +9,5 @@ This unit is under construction.
 </p>
 </warning>
 
-Coming soon. Generic types will be added within 2 weeks of the first beta release.
+Generic type support is coming soon.
 
