@@ -20,7 +20,6 @@
     </toc-element>
     <toc-element topic="getting-started.md">
         <toc-element topic="gettng-started-overview.md"/>
-        <toc-element topic="system-requirements.md"/>
         <toc-element topic="installation.md"/>
         <toc-element topic="starting.md"/>
         <toc-element topic="Learning-how-to-use-Vizitest.md"/>
