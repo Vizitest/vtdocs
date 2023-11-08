@@ -60,4 +60,8 @@
         </description>
         <accepts>C-I60-effect-of-more-r-values.html</accepts>
     </rule>
+    <rule id="39845c4f">
+        <description>Created after removal of "System Requirements" from Vizitest Documentation</description>
+        <accepts>system-requirements.html</accepts>
+    </rule>
 </rules>
