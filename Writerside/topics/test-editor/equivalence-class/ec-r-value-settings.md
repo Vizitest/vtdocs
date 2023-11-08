@@ -62,6 +62,25 @@ A new, nested area will appear where you can edit each of the values.
 
 <img src="r-value-complex-2.png" alt="" width="400"/>
 
+### Arrays, lists and enums
+The Representative Value editor has the following behavior when working with these data types. The following screenshot highlights an array and a list.
+
+<img src="ecp-array-rvalue.png" alt="arrays lists and enums" width="800"/>
+
+When you click in an array, list or enum field, you can add new array items by pressing the + icon (circled). To save and collapse the items, press the icon to the right of + icon.
+
+There is a training unit that covers these data types.
+
+- [Arrays, lists, enums](arrays-lists-enums.md)
+
+### Generics
+
+<warning>
+<p>
+Generic types are coming very soon.
+</p>
+</warning>
+
 ### Collapsing, saving, discarding
 Any complex data type values you have edited will leave the expanded section open until you explicitly change it.
 
@@ -117,8 +136,4 @@ You can now replace the lines
 
 ...with your own implementation. Note that the return type, ```CreditCheck``` in the above example, is automatically provided in the method signature.
 
-### Working with arrays, lists, enums and generics
-These are best explained in our [Training](training.md) units.
 
- - [Arrays, lists, enums](arrays-lists-enums.md)
- - [Generics](generics.md)

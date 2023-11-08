@@ -10,6 +10,7 @@ The following is a summary of what we plan to add during the Beta phase and roug
 - Many small **UI and usability tweaks**. Ongoing.
 - **Custom Assertions** : write your own code to handle a test assertion.
 - **Side Effects** : detect changes in an object state during the lifetime of a test.
+- **Generics** : full support of generic types.
 - **Setting Class properties** : the ability to access and set Class properties
   - from a Representative Value when instantiating a class
   - from the Side Effects output by querying a Class property.
