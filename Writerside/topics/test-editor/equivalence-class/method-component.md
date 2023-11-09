@@ -47,7 +47,7 @@ The Input column will contain several sections, one for each method parameter. Y
 ## Output column
 This is where you define possible/expected outputs from the method. These are divided into the following sections.
 
-### Expected Values
+### Return Values
 Equivalence Classes and Representative Values for the expected values that are returned by the method.
 
 ### Exceptions
