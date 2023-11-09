@@ -39,7 +39,7 @@ We are going to create a test that operates on two methods. This is an extremely
 - Add the Representative Value ```5```.
 
 #### Method 1 Verifications
-- In the Expected Values section, we will need an Equivalence Class **Valid values** (name as you like).
+- In the Return Values section, we will need an Equivalence Class **Valid values** (name as you like).
 - Add the value ```50``` for ```multiplicand``` as we initialized the class with ```10``` and multiplied it by ```5```
 
 ### Create the second Method component
@@ -50,7 +50,7 @@ We are going to create a test that operates on two methods. This is an extremely
 - Add the Representative Value ```0``` to **Invalid values**.
 
 #### Method 2 Verifications
-- In the Expected Values section, we will need an Equivalence Class **Valid values** (name as you like).
+- In the Return Values section, we will need an Equivalence Class **Valid values** (name as you like).
 - Add the value ```25``` as we initialized the class with ```10``` and multiplied it by ```5``` and dividing it by ```2``` in this method's input.
 - We should also add an Exception to catch the divide by 0 error we can expect from the **Invalid values** Equivalence Class.
 

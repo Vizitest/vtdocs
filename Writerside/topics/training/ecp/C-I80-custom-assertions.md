@@ -37,7 +37,7 @@ TODO - code example coming soon.
 </p>
 </warning>
 
-We are not actually doing anything here that couldn't be accomplished using the normal Verification -> Expected Values. But we do want to show how Custom Assertions work, so below is the code for each of our four examples.
+We are not actually doing anything here that couldn't be accomplished using the normal Output -> Return Values. But we do want to show how Custom Assertions work, so below is the code for each of our four examples.
 
 #### ```private static void assertStaticDoubleCA(User result, CustomMatcherStaticDoubleCATestData data)```
 This example will make its assertion based on **actual** values in ```result``` and the **expected** values in ```data```.

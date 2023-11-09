@@ -6,8 +6,8 @@ For example, a unit test using the [Equivalence Class Partitioning](equivalence-
 <img src="example-test-config.png" alt="test type example" width="700"/>
 
 1. Handles the instantiation of the class ```CreditCheck``` by creating single valid Equivalence Class with three different representative values.
-2. Test the method ```checkCredit``` by defining input values and then possible expected values, custom assertions, exceptions and side effects.
-3. An auto-generated test case table that can be completed by you to determine the correct expected value for each generated input.
+2. Test the method ```checkCredit``` by defining input values and then possible Return Values, Custom Assertions, Exceptions and Side Effects.
+3. An auto-generated test case table that can be completed by you to determine the correct returned value for each generated input.
 
 ## Current and future test types
 

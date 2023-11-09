@@ -47,12 +47,12 @@ This is an Instance component and the Class constructor has two parameters. ```S
 
 However, ```LocalDateTime dateOfBirth``` is a complex data type.
 
-<img src="r-value-complex-0.png" alt="" width="400"/>
+<img src="r-value-complex-0.png" alt="" width="600"/>
 
 
 To edit, click in the value field and it will expand. 
 
-<img src="r-value-complex-1.png" alt="" width="400"/>
+<img src="r-value-complex-1.png" alt="" width="600"/>
 
 You can see here that we are able to choose the constructor to use when instantiating the object. You can change the constructor here by clicking an orange constructor pill.
 
@@ -60,7 +60,7 @@ The ```String name``` field can be edited in place but ```LocalDateTime dateOfBi
 
 A new, nested area will appear where you can edit each of the values.
 
-<img src="r-value-complex-2.png" alt="" width="400"/>
+<img src="r-value-complex-2.png" alt="" width="600"/>
 
 ### Arrays, lists and enums
 The Representative Value editor has the following behavior when working with these data types. The following screenshot highlights an array and a list.
