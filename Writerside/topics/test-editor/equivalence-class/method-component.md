@@ -44,19 +44,36 @@ The Method component has several sections, divided into **Input** and **Output**
 ## Input column
 The Input column will contain several sections, one for each method parameter. You should create at least one Equivalence Class for each parameter with at least one Representative Value in each Equivalence Class.
 
+Here is an example of a method that takes one parameter ```double temperature()``` with Equivalence Classes and Representative Values defined.
+
+<img src="ec-method-input.png" alt="method component input" width="700"/>
+
 ## Output column
 This is where you define possible/expected outputs from the method. These are divided into the following sections.
 
 ### Return Values
-Equivalence Classes and Representative Values for the expected values that are returned by the method.
+Equivalence Classes and Representative Values for the values that are returned by the method.
+
+<img src="ec-method-return.png" alt="method component return values" width="700"/>
 
 ### Exceptions
-If your method throws Exceptions, you will want to specify the Exception type. For each different Exception type you expect, add a new row by hovering on the Exception section header and pressing the + icon. You select the Exception type from the dropdown. If you select **Exception**, then it will handle all Exceptions including custom exceptions.
+If your method throws Exceptions, you can deal with Exception type. 
+
+For each different Exception type you want to test for, add a new row by hovering on the Exception section header and pressing the + icon. You select the Exception type from the dropdown. If you select **Exception**, then it will handle all Exceptions including custom exceptions.
+
+<img src="ec-method-exception.png" alt="method component exceptions" width="700"/>
+
 ### Custom Assertions
-If you want to write your own code to handle the assertion. For a detailed explanation on how to define and code the Custom Assertion, [click here](custom-assertions.md).
+You can write your own code to handle the assertion. For a detailed explanation on how to define and code the Custom Assertion, [click here](custom-assertions.md).
+
+<img src="ec-method-custom-assertion.png" alt="method component custom assertions" width="700"/>
+
 
 ### Side Effects
 If your method a) doesn't return a value that you can test against and b) mutates the object properties such then you can use Side Effects to test against the state of the object after the method has executed. Please refer to the [Side Effects page](side-effects.md) for a more detailed explanation.
+
+<img src="ec-method-side-effect.png" alt="method component side effects" width="700"/>
+
 
 ## 2. Add Equivalence Class(es)
 You will typically have at least one Equivalence Class for each Input and Output. Vizitest creates Valid Values and Invalid Values for you by default.

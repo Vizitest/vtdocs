@@ -15,7 +15,7 @@ Side Effects will be released shortly. Feel free to read but it will not work wh
 - Open the new Test Configuration.
 
 ## Introduction
-You will use Side Effects when you want to determine test case outcomes based on object mutation by a Method Under test rather than using Expected Values.
+You will use Side Effects when you want to determine test case outcomes based on object mutation by a Method Under test rather than using Return Values.
 
 Let's look at the code in our code example.
 
@@ -35,7 +35,7 @@ public class SideEffects {
 
 Assuming we want to test the method ```multiplyBy(double multiplicand)``` we can see
 
-- it's a ```void``` function, so we **can't** use the Expected Value approach
+- it's a ```void``` function, so we **can't** use the Return Value approach
 - and it mutates the object.
 
 This means the only way we can test is to examine the state of the Instance after the method has executed.

@@ -55,8 +55,8 @@ If your method takes multiple parameters, they will appear beneath one another i
 <img src="input-parameter.png" alt="input parameter" width="500"/>
 
 
-### Output - Expected Values
-We also use the concept of Equivalence Classes to define possible expected values. For this, there is a set of valid expected values that we will name **Results**. It can contain Representative Values of ```solid```, ```liquid``` and ```gas```.
+### Output - Return Values
+We also use the concept of Equivalence Classes to define possible return values. For this, there is a set of valid return values that we will name **Results**. It can contain Representative Values of ```solid```, ```liquid``` and ```gas```.
 
 <img src="output-return-values.png" alt="return values" width="500"/>
 
