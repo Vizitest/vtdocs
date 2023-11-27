@@ -1,6 +1,6 @@
 # Contacting Us
 
-To help us make Vizitest as good as it can be for our users, we want to make getting hold of us as frictionless as possible. 
+To help us make Vizitest as good as it can be for our users, we want to make getting hold of us as frictionless as possible.
 
 Hopefully one of these works for you.
 
@@ -13,3 +13,13 @@ Hopefully one of these works for you.
 | **Email**         | Email us at [support@vizitest.com](mailto:support@vizitest.com?subject=Vizitest+support+inquiry).           |  
 | **Sales**    | Please email sales enquiries to [sales@vizitest.com](mailto:sales@vizitest.com).                            |  
 
+## Log files
+In some cases, we may ask you to send over log files to help diagnose issues.
+
+Vizitest stores its log files in the hidden folder ```.vizitest``` which is located in your Home folder.
+
+- Mac ```/Users/username/.vizitest```
+- Windows ```C:/User/username/.vizitest```
+- Linux ```/home/username/.vizitest```
+
+If we request log files, please send us the last created log file for each file type you will see.
